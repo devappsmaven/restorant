@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Jost:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Jost", sans-serif;
+  height: 100vh;
+}
+
+/* ********************* Header Css **************** */
+
+.top_header {
+  padding: 0 10rem;
+}
+
+.top_header .logo {
+  align-items: center;
+  text-align: center;
+}
+
+.header_contact {
+  display: flex;
+}
+
+.header_contact .contact {
+  padding: 0px;
+  margin: 0px;
+  line-height: 0;
+  position: relative;
+  top: 0;
+  left: 5px;
+  margin: -2px 9px;
+}
+.header_contact .contact p.number {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.header_contact .contact p.call_us {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.logo img {
+  width: 18rem;
+}
+
+.social {
+  float: right;
+}
+
+.social .social_icon {
+  padding: 2px;
+}
+
+/* ************************ Navbar Css ************************ */
+.navbar {
+  background-color: #e9b61c !important;
+}
+ul.navbar-nav.mr-auto {
+  align-items: center;
+  /* background: #212121; */
+  display: flex;
+  justify-content: space-between;
+  height: 27px !important;
+}
+
+.navbar .nav-item a {
+  color: #fff !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: jost !important;
+}
+.navbar .active {
+  background-color: #a51d23;
+}
+
+/* ********************* Header Slider **************** */
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* GLOBAL STYLES
+    --------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+/* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* MARKETING CONTENT
+  -------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+/* Featurettes
+  ------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+/* About css  */
+
+.about_section {
+  height: 70vh;
+}
+
+.about_section h3 {
+  font-size: 28px;
+  color: #a51d23;
+  font-weight: 600;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+}
+
+.separator .line {
+  height: 3px;
+
+  background-color: #a5252c;
+  width: 8rem;
+}
+
+.separator h3 {
+  padding: 0px 15px 0px 0px;
+  margin-bottom: 2px;
+}
+.about_section h2 {
+  font-size: 50px;
+  font-family: Cormorant Garamond;
+  font-weight: 700;
+}
+
+.about_section p {
+  font-size: 19px;
+  line-height: 28px;
+}
+.about_img {
+  width: 36vw;
+  margin-top: 30px;
+}
+.about_img img {
+  width: 100%;
+  flex-basis: fit-content;
+  background-size: cover;
+}
+
+/* Menu css */
+
+.menu_section {
+  width: 100%;
+  background-color: #f8f8f8;
+  height: 100%;
+}
+.menu_heading {
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-weight: 600;
+  font-size: 62px;
+  padding: 15px;
+}
+.menu_section img {
+  width: 100%;
+}
+.menu_section .arrow,
+.menu_section .arrow1 {
+  width: 30px;
+  height: 30px;
+}
+
+.menu_footer {
+  display: flex;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0px 10px;
+  line-height: 39px;
+  height: 45px;
+}
+
+.menu_section .arrow {
+  margin-left: 41px;
+}
+
+.menu_section .first_menu,
+.menu_section .second_menu {
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: 0.3s;
+}
+.menu_section .left_menu {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: 0.9s;
+}
+
+.menu_section .first_menu:hover,
+.menu_section .second_menu:hover,
+.menu_section .left_menu:hover {
+  transform: scale(1.1);
+}
+
+.menu_section .first_menu:before,
+.menu_section .second_menu:before,
+.menu_section .left_menu:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: #000;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  opacity: 0;
+  -moz-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.menu_section .first_menu:hover:before,
+.menu_section .second_menu:hover:before,
+.menu_section .left_menu:hover:before {
+  opacity: 1;
+}
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+.slider-three {
+  animation: slider-three 12s linear infinite;
+}

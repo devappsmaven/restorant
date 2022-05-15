@@ -1,0 +1,10 @@
+Font:  Cormorant Garamond,  Jost
+
+colour:  #a61d24,      #e9b61c
+
+links:   fb:         https://www.facebook.com/Salva-Dor-Tauranga-338363763018769/
+              insta:  https://www.instagram.com/salvador_restaurant/?hl=en
+Tripadvisor:   https://www.tripadvisor.com/Restaurant_Review-g255114-d7008009-Reviews-Salva_D_Or_Restaurant- Tauranga_Bay_of_Plenty_Region_North_Island.html
+
+topreviw:   https://www.topreviews.co.nz/best-italian-restaurants-tauranga/
+     
