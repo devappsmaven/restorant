@@ -77,8 +77,12 @@ ul.navbar-nav.mr-auto {
   font-size: 18px;
   font-family: jost !important;
 }
-.navbar .active {
+
+.active {
   background-color: #a51d23;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  color: white;
 }
 
 /* ********************* Header Slider **************** */
@@ -199,34 +203,29 @@ ul.navbar-nav.mr-auto {
   font-size: 19px;
   line-height: 28px;
 }
-.about_img {
-  margin-top: 30px;
-}
+
 .about_img img {
   width: 100%;
   flex-basis: fit-content;
   background-size: cover;
-  height: 445px;
+  height: 467px;
 }
 
 /* Menu css */
 .bg_gray {
   width: 100%;
   background-color: #f8f8f8;
-  height: 100%;
 }
 
 .menu_section {
   width: 100%;
-  background-color: #f8f8f8;
-  height: 100%;
 }
 .menu_heading h1 {
   text-align: center;
   font-family: Cormorant Garamond;
   font-weight: 600;
   font-size: 62px;
-  padding: 15px;
+  padding: 40px 0 10px;
 }
 .menu_section img {
   width: 100%;
@@ -287,7 +286,7 @@ ul.navbar-nav.mr-auto {
   font-family: Cormorant Garamond;
   font-weight: 600;
   font-size: 56px;
-  padding: 15px;
+  padding: 40px 0 10px;
 }
 
 .contact_form img {
@@ -316,10 +315,10 @@ ul.navbar-nav.mr-auto {
 }
 
 .contact_form input::placeholder {
-  font: 12px/3 sans-serif;
+  font: 12px/3 "Jost";
 }
 .contact_form textarea::placeholder {
-  font: 12px/2 sans-serif;
+  font: 12px/2 "Jost";
 }
 .contact_form .form-group span i {
   font-size: 14px;

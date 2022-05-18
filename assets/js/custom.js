@@ -50,3 +50,10 @@ function simpleCarousel(carousel, intervalTime = 5000) {
       moveRight();
     });
 }
+
+var selector = ".navbar-nav li a";
+
+$(selector).on("click", function () {
+  $(selector).removeClass("active");
+  $(this).addClass("active");
+});
