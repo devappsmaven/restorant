@@ -201,7 +201,7 @@ ul.navbar-nav.mr-auto {
   line-height: 28px;
 }
 .about_img {
-  width: 36vw;
+  width: 32vw;
   margin-top: 30px;
 }
 .about_img img {
@@ -286,6 +286,61 @@ ul.navbar-nav.mr-auto {
 .menu_section .second_menu:hover:before,
 .menu_section .left_menu:hover:before {
   opacity: 1;
+}
+
+/* contact form css */
+.contact_form {
+  position: relative;
+  height: 80vh;
+}
+.contact_form .contact_heading {
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-weight: 600;
+  font-size: 56px;
+  padding: 15px;
+}
+
+.contact_form img {
+  width: 100%;
+}
+
+.contact_form .form {
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  padding: 49px 74px 0px 45px;
+}
+.contact_form .form-control {
+  padding-left: 40px;
+}
+.contact_form .form-group {
+  position: relative;
+}
+.contact_form .form-group span {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  border-right: 2px solid #6c757d;
+  width: 5%;
+}
+
+.contact_form .form-group span i {
+  font-size: 16px;
+
+  color: #6c757d;
+}
+
+.contact_form button {
+  width: 45%;
+  padding: 7px;
+  background: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid;
+  cursor: pointer;
 }
 
 /* RESPONSIVE CSS
