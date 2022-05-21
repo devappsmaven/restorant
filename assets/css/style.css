@@ -279,7 +279,7 @@ ul.navbar-nav.mr-auto {
 /* contact form css */
 .contact_form {
   position: relative;
-  height: 80vh;
+  /* height: 80vh; */
 }
 .contact_form .contact_heading {
   text-align: center;
@@ -335,6 +335,104 @@ ul.navbar-nav.mr-auto {
   font-weight: 400;
   border: 1px solid;
   cursor: pointer;
+}
+
+/* Testimonial */
+
+.testimonials_section {
+  position: relative;
+  padding: 65px 0px 10px;
+  width: 100%;
+  overflow-x: hidden;
+}
+.testimonials_section .testimonial_banner {
+  width: 100%;
+}
+
+.testimonials_section .testimonials {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+.testimonials_section .testimonials .testimonials_heading {
+  color: #fff;
+  font-family: Cormorant Garamond;
+  text-align: center;
+  margin: 40px 0 25px 0px;
+  font-size: 56px;
+}
+.testimonials_section .item .shadow-effect {
+  position: relative;
+}
+
+.testimonials_section .item .shadow-effect img {
+  width: auto;
+  height: 292px;
+}
+
+.testimonials_section .testimonials .owl-item {
+  width: 380px !important;
+  margin-right: 0px !important;
+  background: transparent !important;
+}
+
+#customers-testimonials .item-details {
+  color: #000;
+  padding: 10px 20px;
+  text-align: left;
+  font-family: "Jost", sans-serif;
+  font-style: italic;
+}
+
+#customers-testimonials .item-details p {
+  font-size: 14px;
+  position: absolute;
+  top: 81px;
+  width: 100%;
+}
+
+#customers-testimonials .item {
+  text-align: center;
+  /* margin-bottom: 80px; */
+}
+
+.owl-carousel .owl-nav [class*="owl-"] {
+  transition: all 0.3s ease;
+}
+
+.owl-carousel .owl-nav [class*="owl-"].disabled:hover {
+  background-color: #d6d6d6;
+}
+
+.owl-carousel {
+  position: relative;
+}
+.owl-carousel .owl-stage-outer {
+  right: 1%;
+}
+
+.owl-carousel .owl-next,
+.owl-carousel .owl-prev {
+  line-height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  font-size: 20px;
+  color: #fff !important;
+  border: 1px solid #ddd;
+  background: #000 !important;
+  height: 50px;
+  width: 50px;
+
+  text-align: center;
+}
+
+.owl-carousel .owl-prev {
+  left: -8%;
+}
+
+.owl-carousel .owl-next {
+  right: -9%;
 }
 
 /* RESPONSIVE CSS
