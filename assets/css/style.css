@@ -517,13 +517,12 @@ ul.navbar-nav.mr-auto {
   border-bottom: 2px solid white;
   width: 27px;
   font-weight: 500;
-
   top: 27px;
 }
 
 .footer_section .fa-thin {
   font-weight: 500;
-  font-size: 15px;
+  font-size: 22px;
 }
 
 .footer_section p.footer_heading {
@@ -531,6 +530,19 @@ ul.navbar-nav.mr-auto {
 
   font-weight: 500;
 }
+
+.footer_section .hr_line {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgb(255 255 255 / 40%);
+}
+
+.footer_section .vertical_line {
+  border-right: 1px solid rgb(255 255 255 / 40%);
+  width: 97%;
+}
+
 /* footer section end here */
 
 /* RESPONSIVE CSS
