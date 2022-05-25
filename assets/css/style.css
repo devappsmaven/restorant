@@ -11,6 +11,16 @@ body {
   height: 100vh;
 }
 
+li {
+  list-style: none;
+}
+li a {
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
 /* ********************* Header Css **************** */
 
 .top_header {
@@ -322,7 +332,6 @@ ul.navbar-nav.mr-auto {
 }
 .contact_form .form-group span i {
   font-size: 14px;
-
   color: #6c757d;
 }
 
@@ -419,8 +428,8 @@ ul.navbar-nav.mr-auto {
   top: 30%;
   font-size: 20px;
   color: #fff !important;
-  border: 1px solid #ddd;
-  background: #000 !important;
+  border: 1px solid #7d7d7d5c;
+  background: #7d7d7d5c !important;
   height: 50px;
   width: 50px;
 
@@ -434,6 +443,95 @@ ul.navbar-nav.mr-auto {
 .owl-carousel .owl-next {
   right: -9%;
 }
+
+/* Top reviews css */
+
+.top_review {
+  position: relative;
+}
+
+.top_review img.top_review_patti {
+  width: 100%;
+  height: 100px;
+}
+.top_review .top_review_inner {
+  text-align: center;
+  padding: 15px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top_review .top_review_inner img {
+  height: 80px;
+}
+
+.top_review .top_review_inner a {
+  text-decoration: none;
+  background-color: #e9b61c;
+  color: #fff;
+  margin-left: -11px;
+  padding: 5px 12px;
+}
+
+.gallery .gallery_heading h1 {
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-weight: 600;
+  font-size: 62px;
+  padding: 40px 0 10px;
+}
+
+.gallery .gallery_section {
+  padding-bottom: 36px;
+}
+
+.gallery .gallery_section img {
+  width: 100%;
+  transition: 0.9s;
+}
+.gallery .gallery_section .gallery_bottom_img {
+  margin-top: 30px;
+}
+.gallery .gallery_section .gallery_center_img {
+  margin-top: -15px;
+}
+.gallery .gallery_section img:hover {
+  transform: scale(1.1);
+}
+
+/* footer section start here */
+.footer_section {
+  background-color: #000;
+  color: #fff;
+  padding: 60px;
+  position: relative;
+}
+
+.footer_section .line {
+  position: absolute;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+  width: 27px;
+  font-weight: 500;
+
+  top: 27px;
+}
+
+.footer_section .fa-thin {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.footer_section p.footer_heading {
+  font-size: 20px;
+
+  font-weight: 500;
+}
+/* footer section end here */
 
 /* RESPONSIVE CSS
   -------------------------------------------------- */
