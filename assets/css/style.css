@@ -363,6 +363,20 @@ ul.navbar-nav.mr-auto {
   top: 0;
   width: 100vw;
 }
+
+.testimonials .star {
+  position: absolute;
+  top: 76px;
+  display: flex;
+  left: 102px;
+}
+
+.testimonials .star .star_rating {
+  width: 22px !important;
+  height: 22px !important;
+  padding: 0 2px;
+}
+
 .testimonials_section .testimonials .testimonials_heading {
   color: #fff;
   font-family: Cormorant Garamond;
@@ -387,19 +401,28 @@ ul.navbar-nav.mr-auto {
 
 #customers-testimonials .item-details {
   color: #000;
-  padding: 10px 20px;
+  padding: 0px 0px 0px 12px;
   text-align: left;
-  font-family: "Jost", sans-serif;
+  font-family: "Jost", sans-serif !important;
   font-style: italic;
 }
 
 #customers-testimonials .item-details p {
   font-size: 14px;
   position: absolute;
+  top: 100px !important;
+  width: 100%;
+}
+#customers-testimonials .item-details p {
+  font-size: 15px;
+  position: absolute;
   top: 81px;
   width: 100%;
 }
 
+#customers-testimonials .item-details .testimonials_username {
+  color: red;
+}
 #customers-testimonials .item {
   text-align: center;
   /* margin-bottom: 80px; */
