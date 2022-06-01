@@ -11,6 +11,10 @@ body {
   height: 100vh;
 }
 
+section {
+  overflow-x: hidden;
+}
+
 li {
   list-style: none;
 }
@@ -129,7 +133,16 @@ ul.navbar-nav.mr-auto {
   bottom: 3rem;
   z-index: 10;
 }
+.menu .carousel-caption {
+  bottom: 11rem;
+  z-index: 10;
+  font-family: "Cormorant Garamond";
+}
 
+.menu .carousel-caption h1 {
+  font-size: 58px;
+  user-select: none;
+}
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
@@ -414,14 +427,16 @@ ul.navbar-nav.mr-auto {
   width: 100%;
 }
 #customers-testimonials .item-details p {
-  font-size: 15px;
   position: absolute;
-  top: 81px;
+  padding-right: 10px;
+
   width: 100%;
 }
 
 #customers-testimonials .item-details .testimonials_username {
-  color: red;
+  color: #a51d23;
+  font-family: "Cormorant Garamond";
+  font-size: 20px;
 }
 #customers-testimonials .item {
   text-align: center;
