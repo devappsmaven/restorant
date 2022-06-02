@@ -583,6 +583,30 @@ ul.navbar-nav.mr-auto {
 
 /* footer section end here */
 
+/* Menu Css */
+.menu_item1 {
+  position: relative;
+}
+.line1 {
+  width: 80px;
+  height: 0;
+  border: 1px solid #c4c4c4;
+  margin: 3px;
+  display: inline-block;
+  position: relative;
+  top: 9px;
+}
+
+.line2 {
+  width: 80px;
+  height: 0;
+  border: 1px solid #c4c4c4;
+  margin: 3px;
+  display: inline-block;
+  position: relative;
+  top: 9px;
+}
+
 /* RESPONSIVE CSS
   -------------------------------------------------- */
 
