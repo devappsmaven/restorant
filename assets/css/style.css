@@ -587,25 +587,38 @@ ul.navbar-nav.mr-auto {
 .menu_item1 {
   position: relative;
 }
-.line1 {
-  width: 80px;
-  height: 0;
-  border: 1px solid #c4c4c4;
-  margin: 3px;
-  display: inline-block;
+.menu_item2 {
   position: relative;
-  top: 9px;
+  margin-top: 54px;
+}
+.line1 {
+  margin-bottom: 8px;
+  width:60%;
 }
 
 .line2 {
-  width: 80px;
-  height: 0;
-  border: 1px solid #c4c4c4;
-  margin: 3px;
-  display: inline-block;
-  position: relative;
-  top: 9px;
+    position: absolute;
+    /* top: 34px; */
+    margin-top: 14px;
+    left: 132px;
+    width: 60%;
 }
+
+.menu_price{
+  font-weight: 400;
+    color: #a61d24;
+}
+
+.right_menu_img img{
+  width: 100%;
+    height: 250px;
+}
+
+  .left_menu_bg_grey {
+    background: #f8f8f8;
+    padding: 31px 0px;
+}
+
 
 /* RESPONSIVE CSS
   -------------------------------------------------- */
