@@ -9,6 +9,7 @@ body {
   font-family: "Cormorant Garamond", serif;
   font-family: "Jost", sans-serif;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 section {
@@ -72,6 +73,9 @@ a:hover {
   padding: 2px;
 }
 
+
+
+
 /* ************************ Navbar Css ************************ */
 .navbar {
   background-color: #e9b61c !important;
@@ -81,7 +85,7 @@ ul.navbar-nav.mr-auto {
   /* background: #212121; */
   display: flex;
   justify-content: space-between;
-  height: 27px !important;
+  /* height: 27px !important; */
 }
 
 .navbar .nav-item a {
@@ -359,6 +363,12 @@ ul.navbar-nav.mr-auto {
   cursor: pointer;
 }
 
+/* .width="550" height="395"  */
+.map_image{
+  width: 550px;
+  height: 395px;
+}
+
 /* Testimonial */
 
 .testimonials_section {
@@ -369,6 +379,7 @@ ul.navbar-nav.mr-auto {
 }
 .testimonials_section .testimonial_banner {
   width: 100%;
+      /* height: 75%; */
 }
 
 .testimonials_section .testimonials {
@@ -402,8 +413,8 @@ ul.navbar-nav.mr-auto {
 }
 
 .testimonials_section .item .shadow-effect img {
-  width: auto;
-  height: 292px;
+  /* width: auto; */
+  height: 300px;
 }
 
 .testimonials_section .testimonials .owl-item {
@@ -665,4 +676,277 @@ ul.navbar-nav.mr-auto {
 }
 .slider-three {
   animation: slider-three 12s linear infinite;
+}
+
+
+
+
+/**
+ * https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+ *
+ *
+ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+ ul.navbar-nav.mr-auto{
+    height:auto !important;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  ul.navbar-nav.mr-auto{
+    height:auto !important;
+  }
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+ ul.navbar-nav.mr-auto{
+    height:auto !important;
+  }
+
+  .map_image{
+  width: 350px !important;
+  height: 250px !important;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+ ul.navbar-nav.mr-auto{
+    height:auto !important;
+  }
+
+  .header_contact .contact {
+    padding: 0px;
+    margin: 0px;
+    line-height: 0;
+    position: relative;
+    top: 0;
+    left: 5px;
+    margin: -2px 0px;
+}
+
+.header_contact img{
+  width:20px !important;
+}
+
+.header_contact .contact p.call_us {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+
+.header_contact .contact p.number {
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.social .social_icon {
+  width:20px;
+}
+
+  .logo img {
+    width: 7rem;
+}
+  .map_image{
+  width: 350px !important;
+  height: 300px !important;
+}
+.separator .line {
+    height: 2px;
+    background-color: #a5252c;
+    width: 8rem;
+}
+.separator h3 {
+    padding: 0px 10px 0px 0px;
+    margin-bottom: 0px;
+}
+.about_section h3 {
+    font-size: 25px;
+    color: #a51d23;
+    font-weight: 600;
+}
+.about_section h2 {
+    font-size: 35px;
+    font-family: Cormorant Garamond;
+    font-weight: 700;
+}
+.about_section p {
+    font-size: 15px;
+    line-height: 22px;
+}
+.about_img img {
+    width: 100%;
+    flex-basis: fit-content;
+    background-size: cover;
+    height: 300px;
+}
+
+.menu_heading h1 {
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-weight: 600;
+    font-size: 45px;
+    padding: 17px 0 2px;
+}
+.menu_footer1 {
+    display: flex;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2px 10px;
+    line-height: 36px;
+    height: 38px;
+}
+.menu_section .arrow {
+    margin-left: -10px;
+}
+.menu_footer {
+    display: flex;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 10px;
+    line-height: 44px;
+    
+}
+.menu_section .arrow, .menu_section .arrow1 {
+    width: 22px;
+    height: 22px;
+}
+.menu_section .first_menu, .menu_section .second_menu {
+    margin-bottom: 21px; 
+    width: 90%;  
+}
+
+.contact_form .contact_heading {
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-weight: 600;
+    font-size: 45px;
+    padding: 0px 0 10px;
+}
+.contact_form .form-control{
+  padding: 0px 33px;
+}
+.contact_form .contact_img{
+    width: 100%;
+    height: 98%;
+}
+
+.contact_form img {
+    width: 100%;
+    height: 100%;
+}
+.contact_form .form-group span {
+    position: absolute;
+    top: 2px;
+
+    left: 10px;
+    border-right: 2px solid #6c757d;
+    width: 8%;
+}
+.contact_form .form-group span i {
+    font-size: 12px;
+    color: #6c757d;
+}
+.contact_form .form {  
+    padding: 22px 74px 0px 45px;
+}
+.contact_form button {
+   
+    font-size: 16px;
+    
+}
+/* Testimonial */
+
+
+.testimonials_section {  
+  position: relative;
+  overflow-y: hidden;
+    padding: 25px 0px 10px;   
+}
+
+.testimonials_section .testimonial_banner {
+    width: 100%;
+    height: 400px;
+}
+.testimonials_section .testimonials .testimonials_heading {
+    color: #fff;
+    font-family: Cormorant Garamond;
+    text-align: center;
+    margin: 15px 0 0px 0px;
+    font-size: 45px;
+}
+.testimonials_section .testimonials .owl-item {
+    width: 380px !important;
+    background: transparent !important;
+}
+.testimonials_section .item .shadow-effect img {
+    width: auto;
+    height: 300px;
+}
+#customers-testimonials .item-details p {
+    position: absolute;
+    padding-right: 78px;
+    width: 100%;
+}
+
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+ ul.navbar-nav.mr-auto{
+    height: 27px !important;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+ ul.navbar-nav.mr-auto{
+    height: 27px !important;
+  }
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
 }
