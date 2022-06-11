@@ -5,12 +5,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Cormorant Garamond", serif;
   font-family: "Jost", sans-serif;
   height: 100vh;
   overflow-x: hidden;
 }
+
+
 
 section {
   overflow-x: hidden;
@@ -19,13 +22,16 @@ section {
 li {
   list-style: none;
 }
+
 li a {
   color: #fff;
 }
+
 a:hover {
   text-decoration: none;
   color: #fff;
 }
+
 /* ********************* Header Css **************** */
 
 .top_header {
@@ -50,6 +56,7 @@ a:hover {
   left: 5px;
   margin: -2px 9px;
 }
+
 .header_contact .contact p.number {
   font-size: 26px;
   font-weight: 800;
@@ -80,6 +87,7 @@ a:hover {
 .navbar {
   background-color: #e9b61c !important;
 }
+
 ul.navbar-nav.mr-auto {
   align-items: center;
   /* background: #212121; */
@@ -114,12 +122,6 @@ ul.navbar-nav.mr-auto {
   user-select: none;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
-}
-
 /* GLOBAL STYLES
     --------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -137,6 +139,7 @@ ul.navbar-nav.mr-auto {
   bottom: 3rem;
   z-index: 10;
 }
+
 .menu .carousel-caption {
   bottom: 11rem;
   z-index: 10;
@@ -147,12 +150,13 @@ ul.navbar-nav.mr-auto {
   font-size: 58px;
   user-select: none;
 }
+
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
 }
 
-.carousel-item > img {
+.carousel-item>img {
   position: absolute;
   top: 0;
   left: 0;
@@ -220,6 +224,7 @@ ul.navbar-nav.mr-auto {
   padding: 0px 15px 0px 0px;
   margin-bottom: 2px;
 }
+
 .about_section h2 {
   font-size: 50px;
   font-family: Cormorant Garamond;
@@ -247,6 +252,7 @@ ul.navbar-nav.mr-auto {
 .menu_section {
   width: 100%;
 }
+
 .menu_heading h1 {
   text-align: center;
   font-family: Cormorant Garamond;
@@ -254,14 +260,17 @@ ul.navbar-nav.mr-auto {
   font-size: 62px;
   padding: 40px 0 10px;
 }
+
 .menu_section img {
   width: 100%;
 }
+
 .menu_section .arrow,
 .menu_section .arrow1 {
   width: 30px;
   height: 30px;
 }
+
 .menu_footer1 {
   display: flex;
   background-color: #fff;
@@ -292,6 +301,7 @@ ul.navbar-nav.mr-auto {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   transition: 0.3s;
 }
+
 .menu_section .left_menu {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   transition: 0.9s;
@@ -308,6 +318,7 @@ ul.navbar-nav.mr-auto {
   position: relative;
   /* height: 80vh; */
 }
+
 .contact_form .contact_heading {
   text-align: center;
   font-family: Cormorant Garamond;
@@ -327,12 +338,15 @@ ul.navbar-nav.mr-auto {
   width: 100%;
   padding: 49px 74px 0px 45px;
 }
+
 .contact_form .form-control {
   padding-left: 40px;
 }
+
 .contact_form .form-group {
   position: relative;
 }
+
 .contact_form .form-group span {
   position: absolute;
   top: 7px;
@@ -344,9 +358,11 @@ ul.navbar-nav.mr-auto {
 .contact_form input::placeholder {
   font: 12px/3 "Jost";
 }
+
 .contact_form textarea::placeholder {
   font: 12px/2 "Jost";
 }
+
 .contact_form .form-group span i {
   font-size: 14px;
   color: #6c757d;
@@ -364,7 +380,7 @@ ul.navbar-nav.mr-auto {
 }
 
 /* .width="550" height="395"  */
-.map_image{
+.map_image {
   width: 550px;
   height: 395px;
 }
@@ -377,120 +393,10 @@ ul.navbar-nav.mr-auto {
   width: 100%;
   overflow-x: hidden;
 }
+
 .testimonials_section .testimonial_banner {
   width: 100%;
-      /* height: 75%; */
-}
-
-.testimonials_section .testimonials {
-  position: absolute;
-  top: 0;
-  width: 100vw;
-}
-
-.testimonials .star {
-  position: absolute;
-  top: 76px;
-  display: flex;
-  left: 102px;
-}
-
-.testimonials .star .star_rating {
-  width: 22px !important;
-  height: 22px !important;
-  padding: 0 2px;
-}
-
-.testimonials_section .testimonials .testimonials_heading {
-  color: #fff;
-  font-family: Cormorant Garamond;
-  text-align: center;
-  margin: 40px 0 25px 0px;
-  font-size: 56px;
-}
-.testimonials_section .item .shadow-effect {
-  position: relative;
-}
-
-.testimonials_section .item .shadow-effect img {
-  /* width: auto; */
-  height: 300px;
-}
-
-.testimonials_section .testimonials .owl-item {
-  width: 380px !important;
-  margin-right: 0px !important;
-  background: transparent !important;
-}
-
-#customers-testimonials .item-details {
-  color: #000;
-  padding: 0px 0px 0px 12px;
-  text-align: left;
-  font-family: "Jost", sans-serif !important;
-  font-style: italic;
-}
-
-#customers-testimonials .item-details p {
-  font-size: 14px;
-  position: absolute;
-  top: 100px !important;
-  width: 100%;
-}
-#customers-testimonials .item-details p {
-  position: absolute;
-  padding-right: 10px;
-
-  width: 100%;
-}
-
-#customers-testimonials .item-details .testimonials_username {
-  color: #a51d23;
-  font-family: "Cormorant Garamond";
-  font-size: 20px;
-}
-#customers-testimonials .item {
-  text-align: center;
-  /* margin-bottom: 80px; */
-}
-
-.owl-carousel .owl-nav [class*="owl-"] {
-  transition: all 0.3s ease;
-}
-
-.owl-carousel .owl-nav [class*="owl-"].disabled:hover {
-  background-color: #d6d6d6;
-}
-
-.owl-carousel {
-  position: relative;
-}
-.owl-carousel .owl-stage-outer {
-  right: 1%;
-}
-
-.owl-carousel .owl-next,
-.owl-carousel .owl-prev {
-  line-height: 50px;
-  border-radius: 50%;
-  position: absolute;
-  top: 30%;
-  font-size: 20px;
-  color: #fff !important;
-  border: 1px solid #7d7d7d5c;
-  background: #7d7d7d5c !important;
-  height: 50px;
-  width: 50px;
-
-  text-align: center;
-}
-
-.owl-carousel .owl-prev {
-  left: -8%;
-}
-
-.owl-carousel .owl-next {
-  right: -9%;
+  /* height: 75%; */
 }
 
 /* Top reviews css */
@@ -503,6 +409,7 @@ ul.navbar-nav.mr-auto {
   width: 100%;
   height: 100px;
 }
+
 .top_review .top_review_inner {
   text-align: center;
   padding: 15px 0;
@@ -542,12 +449,15 @@ ul.navbar-nav.mr-auto {
   width: 100%;
   transition: 0.9s;
 }
+
 .gallery .gallery_section .gallery_bottom_img {
   margin-top: 30px;
 }
+
 .gallery .gallery_section .gallery_center_img {
   margin-top: -15px;
 }
+
 .gallery .gallery_section img:hover {
   transform: scale(1.1);
 }
@@ -593,63 +503,70 @@ ul.navbar-nav.mr-auto {
 }
 
 
-.footer_section .footer_back_icon{
+.footer_section .footer_back_icon {
   transform: rotate(180deg);
 }
+
 /* footer section end here */
 
 /* Menu Css */
 .menu_item1 {
   position: relative;
 
-  
+
 }
+
 .menu_item2 {
   position: relative;
   margin-top: 54px;
 }
-.menu_heading{
+
+.menu_heading {
   font-size: 58px;
-    font-weight: bold;
-    font-family: 'Cormorant Garamond';
-        margin-top: -15px;
-}
-.menu_content{
-  margin-bottom: 1rem;
-}
-.menu_item1 p, .menu_item2 p{
-  margin-bottom: 0px;
-}
-.line1 {
-  margin-bottom: 8px;
-  width:50%;
+  font-weight: bold;
+  font-family: 'Cormorant Garamond';
+  margin-top: -15px;
 }
 
-.menu_content .menu_small_des{
+.menu_content {
+  margin-bottom: 1rem;
+}
+
+.menu_item1 p,
+.menu_item2 p {
+  margin-bottom: 0px;
+}
+
+.line1 {
+  margin-bottom: 8px;
+  width: 50%;
+}
+
+.menu_content .menu_small_des {
   color: #666666;
 }
 
 .line2 {
-    position: absolute;
-    /* top: 34px; */
-    margin-top: 14px;
-    left: 132px;
-    width: 50%;
+  position: absolute;
+  /* top: 34px; */
+  margin-top: 14px;
+  left: 132px;
+  width: 50%;
 }
 
-.menu_price{
+.menu_price {
   font-weight: 400;
-    color: #a61d24;
+  color: #a61d24;
 }
 
-.right_menu_img img{
-     width: 500px;
-    height: 350px;
+.right_menu_img img {
+  width: 500px;
+  height: 350px;
 }
 
-  .left_menu_bg_grey {
-    background: #f8f8f8;
-    padding: 31px 0px;
+.left_menu_bg_grey {
+  background: #f8f8f8;
+  padding: 31px 0px;
 }
 
 
@@ -657,6 +574,7 @@ ul.navbar-nav.mr-auto {
   -------------------------------------------------- */
 
 @media (min-width: 40em) {
+
   /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 1.25rem;
@@ -674,6 +592,7 @@ ul.navbar-nav.mr-auto {
     margin-top: 7rem;
   }
 }
+
 .slider-three {
   animation: slider-three 12s linear infinite;
 }
@@ -688,61 +607,469 @@ ul.navbar-nav.mr-auto {
  */
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles */
+
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
+@media only screen and (min-width : 321px) {
+  /* Styles */
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
- ul.navbar-nav.mr-auto{
-    height:auto !important;
+@media only screen and (max-width : 320px) {
+
+  .header_contact img {
+    width: 15px !important;
   }
+
+
+  /* Styles */
+  ul.navbar-nav.mr-auto {
+    height: auto !important;
+  }
+
+
+
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-  ul.navbar-nav.mr-auto{
-    height:auto !important;
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 375px) {
+
+
+.top_header {
+    padding: 0px 0px !important;
+}
+
+.top_header .row {
+  
+    flex-wrap: inherit !important;
+  
+}
+
+  .header_contact img {
+    width: 25px !important;
   }
-/* Styles */
+
+  .header_contact .contact {   
+    left: 5px!important;
+    margin: 0px 2px !important;
+}
+
+.header_contact .contact p.call_us {
+  
+    font-size: 9px !important;
+    line-height: 5px !important;
+}
+.header_contact .contact p.number {
+    font-size: 12px !important;
+
+}
+
+  /* Styles */
+  ul.navbar-nav.mr-auto {
+    height: auto !important;
+  }
+
+  .logo img {
+    width: 6rem !important;
+}
+
+  .social .social_icon {
+    /* padding: 2px; */
+  width: 25px !important;
+}
+
+
+/* Menu section */
+
+.menu_heading h1 {
+    
+    font-size: 35px;
+    padding: 10px 0 10px;
+}
+
+
+.menu_section .first_menu, .menu_section .second_menu {
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.menu_section .arrow {
+    margin-left: 38px !important;
+}
+
+.menu_section .left_menu .left_menu_img{
+  height: 250px ;
+}
+
+.menu_section .left_menu  .menu_footer1 {
+   
+    margin-bottom: 20px;
+}
+
+/* contact us section */
+.contact_form .contact_heading {
+   
+    font-size: 35px;
+    padding: 2px 0 10px;
+}
+.contact_form .form {
+    width: auto;
+        padding: 5px 75px 0px;
+}
+.contact_form .form-group {
+    position: relative;
+    margin-bottom: 0px !important;
+}
+.contact_form .form-control {
+   
+    padding: 5px 0 0 40px;
+    margin-bottom: 8px;
+}
+.contact_form .form-group span {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    border-right: 2px solid #6c757d;
+    width: 10%;
+}
+.contact_form button {padding: 5px; font-size: 15px;}
+ .map_image {
+        width: 345px !important;
+    height: 250px !important;
+    padding-top: 20px;
+  }
+
+
+  /* Testimonial CSS */
+  .testimonials_section {
+   
+    padding: 0px;
+  
+   
+    height: 100%;
+   
+    overflow-y: hidden;
+}
+.testimonials_section .testimonial_banner {
+    width: 100%;
+    height: 400px;
+}
+
+  .slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 28px 0;
+    margin-top: 10px;
+}
+
+.card.swiper-slide {
+    width: 210px !important;
+    margin-right: 11px !important;
+}
+
+.image-content, .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0px 0px;
+}
+
+.swiper-slide .image {
+    width: 70px;
+    height: 70px;
+   
+    top: 5px;
+}
+
+.top_review .top_review_inner img {
+    height: 60px;
+}
+  /* Gallery section  */
+
+  .gallery .gallery_heading h1 {
+  
+    font-size: 35px;
+    padding: 56px 0 10px;
+}
+
+
+}
+
+@media only screen and (max-width : 414px) {
+  /* Styles */
+  .header_contact .contact {
+    left: 4px !important;
+    margin: 0px !important;
+}
+.header_contact img {
+    width: 28px !important;
+}
+  .header_contact .contact p.call_us {
+    font-size: 13px !important;
+    line-height: 9px !important;
+}
+.header_contact .contact p.number {
+    font-size: 17px !important;
+}
+.logo img {
+    width: 6rem !important;
+}
+.social .social_icon {
+    padding: 0px;
+    width: 28px !important;
+}
+
+.menu_section .arrow {
+    margin-left: 54px !important;
+}
+.contact_form .form {
+   
+    padding: 7px 74px 0px 45px;
+}
+.map_image{
+  margin-top: 20px !important;
+  width: 385px !important;
+}
+.form-control {
+  
+    padding: 5px;
+    font-size: 1rem;
+   
+}
+.contact_form .form-group {
+    position: relative;
+    margin-bottom: 8px;
+}
+.contact_form button {
+  
+    padding: 4px;
+   
+    font-size: 18px;
+    
+}
+.testimonials_section .testimonial_banner {
+    height: 370px !important;
+    overflow: hidden;
+}
+
+
+.image-content, .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 54px 14px 10px;
+}
+
+}
+
+
+
+@media only screen and (max-width : 540px) {
+.top_header {
+    padding: 0px;
+}
+.top_header .row {
+  
+    flex-wrap: inherit;
+  
+}
+.header_contact img{
+      width: 30px;
+}
+ 
+.header_contact .contact {
+   
+    
+    left: 5px;
+    margin: 0px;
+}
+
+.header_contact .contact p.call_us {
+ 
+    font-size: 17px;
+    line-height: 12px;
+}
+
+.header_contact .contact p.number {
+    font-size: 20px;
+   
+}
+.logo img {
+    width: 10rem;
+
+}
+
+.social .social_icon {
+    padding: 0px;
+    width: 30px;
+}
+
+
+
+/* Menu Css */
+.menu_heading h1 {
+   
+    font-size: 45px;
+    padding: 0px 0 10px;
+}
+img.left_menu_img {
+    height: 350px;
+}
+
+
+.menu_footer1 {
+   
+    margin-bottom: 30px;
+}
+.menu_section .arrow {
+    margin-left: 108px;
+}
+
+
+/* Contact Css */
+.contact_form .contact_heading {
+  
+  font-size: 45px;
+  padding: 0px 0 10px;}
+
+.map_image{
+  width:510px ;
+}
+
+.gallery .gallery_heading h1 {
+  
+    font-size: 45px;
+    padding: 26px 0 10px;
+}
+
+
+/* Testimonial Css */
+.testimonials_section .testimonial_banner {
+  
+    height: 360px;
+    overflow: hidden;
+}
+
+
+.swiper-slide .image {
+    width: 80px;
+    height: 80px;
+    
+    top: 8px;
+}
+
+
+.top_review .top_review_inner img {
+    height: 40px;
+}
+.top_review .top_review_inner a {
+   
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+}
+
+
+
+@media only screen and (max-width : 912px) {
+   .testimonial_body{
+     top: 0px !important;
+   }
+
+  .swiper-button-prev,  .swiper-button-next {
+    display: none;
+}
+
+
+
+}
+
+@media only screen and (min-width : 1024px) {
+   .testimonial_body{
+     top: 0px !important;
+   }
+
+  .swiper-button-prev,  .swiper-button-next {
+   margin-top: 0rem;
+}
+
+
+
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  ul.navbar-nav.mr-auto {
+    height: auto !important;
+  }
+   .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  /* Styles */
 }
 
 /* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
- ul.navbar-nav.mr-auto{
-    height:auto !important;
-  }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 
-  .map_image{
-  width: 350px !important;
-  height: 250px !important;
+  /* Styles */
+
+  .navbar {
+    background-color: #e9b61c !important;
+    height: 44px;
+
+  }
+  .menu_section .arrow {
+    margin-left: 14px;
 }
+
+.menu_section .first_menu, .menu_section .second_menu {
+    margin-bottom: 20px;
+  
+}
+.contact_form .form {
+   
+    padding: 18px 74px 0px 45px;
+}
+  .map_image {
+    width: 350px !important;
+    height: 330px !important;
+  }
+  .testimonial_body {
+   
+    width: 80%;
+    
+    top: 1%;
+}
+
+    .swiper-button-next {
+    right: 1rem;
+    margin-top: 1rem;
+}
+
+  .swiper-button-prev {
+    left: 1rem;
+    margin-top: 1rem;
+}
+
+
 }
 
 /* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
- ul.navbar-nav.mr-auto{
-    height:auto !important;
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+
+
+  .top_header_section{
+    margin-bottom:1rem;
+  }
+
+  /* Styles */
+  ul.navbar-nav.mr-auto {
+    height: auto !important;
   }
 
   .header_contact .contact {
@@ -753,74 +1080,82 @@ and (orientation : portrait) {
     top: 0;
     left: 5px;
     margin: -2px 0px;
-}
+  }
 
-.header_contact img{
-  width:20px !important;
-}
+  .header_contact img {
+    width: 20px !important;
+  }
 
-.header_contact .contact p.call_us {
+  .header_contact .contact p.call_us {
     font-weight: 400;
     font-size: 10px;
     line-height: 22px;
     margin-bottom: 0px;
-}
+  }
 
-.header_contact .contact p.number {
+  .header_contact .contact p.number {
     font-size: 12px;
     font-weight: 800;
     margin-bottom: 0px;
-}
+  }
 
-.social .social_icon {
-  width:20px;
-}
+  .social .social_icon {
+    width: 20px;
+  }
 
   .logo img {
     width: 7rem;
-}
-  .map_image{
-  width: 350px !important;
-  height: 300px !important;
-}
-.separator .line {
+  }
+
+  .map_image {
+    width: 350px !important;
+    height: 300px !important;
+  }
+
+  .separator .line {
     height: 2px;
     background-color: #a5252c;
     width: 8rem;
-}
-.separator h3 {
+  }
+
+  .separator h3 {
     padding: 0px 10px 0px 0px;
     margin-bottom: 0px;
-}
-.about_section h3 {
+  }
+
+  .about_section h3 {
     font-size: 25px;
     color: #a51d23;
     font-weight: 600;
-}
-.about_section h2 {
+  }
+
+  .about_section h2 {
     font-size: 35px;
     font-family: Cormorant Garamond;
     font-weight: 700;
-}
-.about_section p {
+  }
+
+  .about_section p {
     font-size: 15px;
     line-height: 22px;
-}
-.about_img img {
+  }
+
+  .about_img img {
     width: 100%;
     flex-basis: fit-content;
     background-size: cover;
     height: 300px;
-}
+  }
 
-.menu_heading h1 {
+  .menu_heading h1 {
     text-align: center;
     font-family: Cormorant Garamond;
     font-weight: 600;
     font-size: 45px;
     padding: 17px 0 2px;
-}
-.menu_footer1 {
+  }
+
+  .menu_footer1 {
     display: flex;
     background-color: #fff;
     font-size: 16px;
@@ -828,125 +1163,198 @@ and (orientation : portrait) {
     padding: 2px 10px;
     line-height: 36px;
     height: 38px;
-}
-.menu_section .arrow {
+  }
+
+  .menu_section .arrow {
     margin-left: -10px;
-}
-.menu_footer {
+  }
+
+  .menu_footer {
     display: flex;
     background-color: #fff;
     font-size: 16px;
     font-weight: 600;
     padding: 0px 10px;
     line-height: 44px;
-    
-}
-.menu_section .arrow, .menu_section .arrow1 {
+
+  }
+
+  .menu_section .arrow,
+  .menu_section .arrow1 {
     width: 22px;
     height: 22px;
-}
-.menu_section .first_menu, .menu_section .second_menu {
-    margin-bottom: 21px; 
-    width: 90%;  
-}
+  }
 
-.contact_form .contact_heading {
+  .menu_section .first_menu,
+  .menu_section .second_menu {
+    margin-bottom: 21px;
+    width: 90%;
+  }
+
+  .contact_form .contact_heading {
     text-align: center;
     font-family: Cormorant Garamond;
     font-weight: 600;
     font-size: 45px;
     padding: 0px 0 10px;
-}
-.contact_form .form-control{
-  padding: 0px 33px;
-}
-.contact_form .contact_img{
+  }
+
+  .contact_form .form-control {
+    padding: 0px 33px;
+  }
+
+  .contact_form .contact_img {
     width: 100%;
     height: 98%;
-}
+  }
 
-.contact_form img {
+  .contact_form img {
     width: 100%;
     height: 100%;
-}
-.contact_form .form-group span {
+  }
+
+  .contact_form .form-group span {
     position: absolute;
     top: 2px;
 
     left: 10px;
     border-right: 2px solid #6c757d;
     width: 8%;
-}
-.contact_form .form-group span i {
+  }
+
+  .contact_form .form-group span i {
     font-size: 12px;
     color: #6c757d;
-}
-.contact_form .form {  
+  }
+
+  .contact_form .form {
     padding: 22px 74px 0px 45px;
-}
-.contact_form button {
-   
+  }
+
+  .contact_form button {
+
     font-size: 16px;
-    
-}
-/* Testimonial */
+
+  }
+
+  /* Testimonial */
 
 
-.testimonials_section {  
-  position: relative;
-  overflow-y: hidden;
-    padding: 25px 0px 10px;   
-}
+  .testimonials_section {
+    position: relative;
+    overflow-y: hidden;
+    padding: 25px 0px 10px;
+  }
 
-.testimonials_section .testimonial_banner {
+  .testimonials_section .testimonial_banner {
     width: 100%;
     height: 400px;
-}
-.testimonials_section .testimonials .testimonials_heading {
+  }
+
+  .testimonials_section .testimonials .testimonials_heading {
     color: #fff;
     font-family: Cormorant Garamond;
     text-align: center;
     margin: 15px 0 0px 0px;
     font-size: 45px;
-}
-.testimonials_section .testimonials .owl-item {
-    width: 380px !important;
-    background: transparent !important;
-}
-.testimonials_section .item .shadow-effect img {
-    width: auto;
-    height: 300px;
-}
-#customers-testimonials .item-details p {
-    position: absolute;
-    padding-right: 78px;
-    width: 100%;
+  }
+
+
+  .gallery .gallery_heading h1{
+    font-size: 45px;
+  }
+
+  .footer_section .footer_back_icon {
+    transform: rotate(180deg);
+    width: 20px;
 }
 
 
+  .footer_section li span {
+   font-size: 10px;
+   margin-right: 0px !important;
 }
+
+.footer_section li a {
+   font-size: 10px;
+   
+}
+
+.footer_section p.footer_heading {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+ .footer_section .vertical_line i{
+  margin-left: 0px !important;
+}
+ .footer_section .vertical_line p.address_details, p.number, p.email ,p.opening_days, p.opening_timing,p.close_day {
+    font-size: 10px;   
+    margin-top: 5px;
+}
+ .footer_section .email_body,  .footer_section .number_body{
+   padding: 0px;
+ }
+ 
+}
+
+
 
 /* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
- ul.navbar-nav.mr-auto{
+@media only screen and (min-width : 1224px) {
+
+  /* Styles */
+  ul.navbar-nav.mr-auto {
     height: 27px !important;
   }
+
+.testimonial_body{
+  top: 12%;
+  width: 80%;
+}
+
+  .swiper-button-prev{
+   
+    left: 1rem;
+    margin-top: 0rem;
+
+  }
+   .swiper-button-next {
+    right: 1rem;
+    margin-top: 0rem;
+}
+   
+
 }
 
 /* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
- ul.navbar-nav.mr-auto{
+@media only screen and (min-width : 1824px) {
+
+  /* Styles */
+  ul.navbar-nav.mr-auto {
     height: 27px !important;
   }
+
+.testimonial_body{
+  top: 20% !important;
+  width: 80%;
+}
+
+  .swiper-button-prev{
+   
+    left: 15rem;
+   
+
+  }
+   .swiper-button-next {
+    right: 15rem;
+    
+}
+
 }
 
 /* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+  /* Styles */
 }
