@@ -398,6 +398,11 @@ ul.navbar-nav.mr-auto {
   width: 100%;
   /* height: 75%; */
 }
+.testimonials_username {
+  color: #a51d23;
+  font-family: "Cormorant Garamond";
+  font-size: 20px;
+}
 
 /* Top reviews css */
 
@@ -1309,7 +1314,7 @@ img.left_menu_img {
   }
 
 .testimonial_body{
-  top: 12%;
+  top: 12% !important;
   width: 80%;
 }
 
