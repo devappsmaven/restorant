@@ -639,6 +639,36 @@ ul.navbar-nav.mr-auto {
 
 }
 
+
+@media only screen and (max-width : 360px) {
+
+  .header_logo{
+    padding-left: 0px !important;
+  }
+
+  .header_contact img {
+    width: 15px !important;
+  }
+
+
+  /* Styles */
+  ul.navbar-nav.mr-auto {
+    height: auto !important;
+  }
+
+  .responsive-map{
+ margin-top: 20px;
+  }
+
+  .map_image{
+    width: 330px !important;
+   
+  }
+
+
+
+}
+
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 375px) {
 
@@ -722,7 +752,7 @@ ul.navbar-nav.mr-auto {
 }
 .contact_form .form {
     width: auto;
-        padding: 5px 75px 0px;
+    padding: 5px 75px 0px;
 }
 .contact_form .form-group {
     position: relative;
@@ -802,6 +832,9 @@ ul.navbar-nav.mr-auto {
 
 
 @media only screen and (min-width: 375px) {
+  .logo img {
+    width: 7rem !important;
+  }
   .header_contact .contact p.number {
     font-size: 15px;
 }
@@ -815,6 +848,17 @@ ul.navbar-nav.mr-auto {
 
   .menu_section .arrow {
     margin-left: 37px !important;
+}
+  .contact_form .form-group span {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    border-right: 2px solid #6c757d;
+    width: 8%;
+}
+.contact_form .form-group {
+    position: relative;
+    margin-bottom: 4px !important;
 }
   .map_image{
     width: 348px !important;
@@ -851,8 +895,44 @@ ul.navbar-nav.mr-auto {
 
 }
 
+
+@media only screen and (min-width : 390px) {
+
+  .header_logo{
+    padding-left: 0px !important;
+  }
+
+  .header_contact img {
+    width: 15px !important;
+  }
+
+  .logo img {
+    width:9rem !important;
+  }
+
+  /* Styles */
+  ul.navbar-nav.mr-auto {
+    height: auto !important;
+  }
+
+  .responsive-map{
+ margin-top: 20px;
+  }
+
+  .map_image{
+    width: 330px !important;
+   
+  }
+
+
+
+}
+
 @media only screen and (max-width : 414px) {
   /* Styles */
+   .header_logo{
+    padding: 0px !important;
+  }
   .header_contact .contact {
     left: 4px !important;
     margin: 0px !important;
@@ -916,6 +996,7 @@ ul.navbar-nav.mr-auto {
 }
 
 @media only screen and (min-width : 414px) {
+ 
   .header_contact {
     display: flex;
     padding-left: 10px;
@@ -1068,6 +1149,7 @@ img.left_menu_img {
     height: 360px;
     overflow: hidden;
 }
+
 
 
 .swiper-slide .image {
@@ -1444,7 +1526,31 @@ img.left_menu_img {
 }
 
 
+@media only screen and (max-width :1280px) {
+.testimonial_body {
+    top: 0% !important;
+    width: 80%;
+}
+  
+}
+
 @media only screen and (min-width : 1440px) {
+  .testimonials_section .testimonial_banner {
+    width: 100%;
+    height: 450px;
+}
+  .testimonial_body {
+    top: 0% !important;
+    width: 80%;
+}
+  .testimonials_section  .testimonials_heading {
+  color: #fff;
+  font-family: Cormorant Garamond;
+  text-align: center;
+  /* margin: 40px 0 25px 0px !important; */
+  font-size: 56px !important;
+}
+
  .swiper-button-next{ 
   right: 5rem;
     margin-top: 2rem;
