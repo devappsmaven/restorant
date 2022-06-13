@@ -17,17 +17,34 @@
     top: 20%;
 }
 
+.testimonials_section  .testimonials_heading {
+  color: #fff;
+  font-family: Cormorant Garamond;
+  text-align: center;
+  margin: 40px 0 25px 0px;
+  font-size: 56px;
+}
+
 .swiper-cards .swiper-slide {
     overflow: visible;
 }
 
 .swiper-slide .img-1 {
-    background-image: url('../images/pic-1.png');
+    /* background-image: url('../images/pic-1.png'); */
+    background-color: #a61d24;
+}
+
+.quotes{
+    text-align: center;
+    margin-top: 15px;
+}
+.quotes img{
+    width: 45px;
 }
 
 .swiper-slide .image {
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 85px;
     border: 5px solid #492408;
     box-shadow: 0 0 10px rgb(0 0 0 / 20%);
     border-radius: 50%;
@@ -38,25 +55,20 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    top: 11px;
+    top: 0px;
 }
 
 .slide-container {
     max-width: 1120px;
     width: 100%;
-    padding: 40px 0;
-    margin-top: 56px;
+    padding: 42px 0;
+    margin-top: 20px;
 }
 
-/* .slide-content {
-    margin: 0 40px;
-    overflow: hidden;
-    border-radius: 25px;
-} */
 
 .card {
 
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: #fff;
 }
 
@@ -65,7 +77,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 88px 14px 10px;
+    padding: 50px 14px 10px;
+    height: 280px;
+}
+
+.card-content p{
+    font-size: 14px;
 }
 
 .image-content {
@@ -122,11 +139,21 @@
 }
 
 .swiper-navBtn {
-    color: blue;
+    color: #fff;
+     background: #403e3e;
+      width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    opacity: 0.8;
 }
 
 .swiper-navBtn:hover {
-    color: rgb(117, 117, 212);
+    color: #fff;
+     background: #403e3e;
+      width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    opacity: 0.8;
 }
 
 .swiper-button-next {
@@ -135,6 +162,13 @@
 
 .swiper-button-prev {
     left: 15rem;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    
+    font-size: 18px !important;
+    font-weight: 800 !important;
 }
 
 
