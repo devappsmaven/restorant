@@ -836,7 +836,7 @@ p.opening_days {
 
 @media only screen and (min-width: 375px) {
   .logo img {
-    width: 7rem !important;
+    width: 6rem !important;
   }
   .header_contact .contact p.number {
     font-size: 15px;
