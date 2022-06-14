@@ -527,7 +527,7 @@ ul.navbar-nav.mr-auto {
 }
 
 .menu_heading {
-  font-size: 58px;
+  font-size: 40px;
   font-weight: bold;
   font-family: 'Cormorant Garamond';
   margin-top: -15px;
@@ -542,7 +542,7 @@ ul.navbar-nav.mr-auto {
   margin-bottom: 0px;
 }
 
-.line1 {
+.line1,.line101 {
   margin-bottom: 8px;
   width: 50%;
 }
@@ -555,9 +555,45 @@ ul.navbar-nav.mr-auto {
   position: absolute;
   /* top: 34px; */
   margin-top: 14px;
-  left: 132px;
+  left: 74px;
   width: 50%;
 }
+.line112,.line15 {
+  position: absolute;
+  /* top: 34px; */
+  margin-top: 14px;
+  left: 94px;
+  width: 50%;
+}
+
+.line12, .line13, .line13,.line14,.line15,.line16, .line1102,.line1103,.line1104 {
+  position: absolute;
+  margin-top: 14px; 
+  width: 50%;
+}
+
+img.line12 {
+    width: 50%;
+    left: 139px;
+}
+img.line13, .line1103{    width: 50%;
+    left: 121px;
+}
+img.line1102{width: 50%;
+    left: 126px;}
+.line14,.line16{
+  left: 108px;
+}
+.line101{
+ 
+    width: 40%;
+}
+.line1104{
+  left: 175px;
+    width: 40%;
+}
+
+
 
 .menu_price {
   font-weight: 400;
@@ -565,7 +601,7 @@ ul.navbar-nav.mr-auto {
 }
 
 .right_menu_img img {
-  width: 500px;
+  width: 100%;
   height: 350px;
 }
 
