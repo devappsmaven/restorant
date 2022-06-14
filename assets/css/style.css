@@ -481,7 +481,7 @@ ul.navbar-nav.mr-auto {
   border-bottom: 2px solid white;
   width: 27px;
   font-weight: 500;
-  top: 27px;
+  top: 33px;
 }
 
 .footer_section .fa-thin {
@@ -574,6 +574,9 @@ ul.navbar-nav.mr-auto {
   padding: 31px 0px;
 }
 
+p.opening_days {
+    margin-top: 10px;
+}
 
 /* RESPONSIVE CSS
   -------------------------------------------------- */
@@ -907,7 +910,7 @@ ul.navbar-nav.mr-auto {
   }
 
   .logo img {
-    width:9rem !important;
+    width:7rem !important;
   }
 
   /* Styles */
@@ -1281,28 +1284,28 @@ img.left_menu_img {
   }
 
   .header_contact img {
-    width: 20px !important;
+    width: 28px !important;
   }
 
-  .header_contact .contact p.call_us {
+.header_contact .contact p.call_us {
     font-weight: 400;
-    font-size: 10px;
-    line-height: 22px;
+    font-size: 15px !important;
+    line-height: 22px !important;
     margin-bottom: 0px;
-  }
+}
 
   .header_contact .contact p.number {
-    font-size: 12px;
+    font-size: 17px !important;
     font-weight: 800;
     margin-bottom: 0px;
   }
 
   .social .social_icon {
-    width: 20px;
+    width: 27px !important;
   }
 
   .logo img {
-    width: 7rem;
+    width: 7rem !important;
   }
 
   .map_image {
@@ -1526,7 +1529,24 @@ img.left_menu_img {
 }
 
 
-@media only screen and (max-width :1280px) {
+@media only screen and (min-width :1280px) {
+  .logo img {
+    width: 10rem ;
+}
+.header_contact img {
+    width: 33px !important;
+}
+.header_contact .contact p.number {
+    font-size: 20px !important;
+}
+.header_contact .contact p.call_us {
+    font-size: 17px !important;
+    line-height: 16px !important;
+}
+.social .social_icon {
+    padding: 0px;
+    width: 33px !important;
+}
 .testimonial_body {
     top: 0% !important;
     width: 80%;
@@ -1576,13 +1596,31 @@ img.left_menu_img {
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
 
+  .logo img {
+    width: 10rem !important;
+}
+.header_contact img {
+    width: 30px !important;
+
+}
+.header_contact .contact p.call_us {
+    font-size: 15px !important;
+    line-height: 15px !important;
+}
+.header_contact .contact p.number {
+    font-size: 21px !important;
+}
+.social .social_icon {
+    /* padding: 0px; */
+    width: 33px !important;
+}
   /* Styles */
   ul.navbar-nav.mr-auto {
     height: 27px !important;
   }
 
 .testimonial_body{
-  top: 20% !important;
+  /* top: 20% !important; */
   width: 80%;
 }
 
