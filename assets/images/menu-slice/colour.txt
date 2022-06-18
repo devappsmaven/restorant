@@ -1,0 +1,19 @@
+222222          (black colour)
+
+c9c9c9          (line grey colour)
+
+666666          (small text grey colour)
+
+f8f8f8             (background grey colour)
+
+a61d24           (red ja colour)
+
+15px and 15 px
+
+58 px   bold        (main heading)
+
+21px  medium    (heading)
+16px  regular      (small text)
+22px  medium   (price)
+
+
