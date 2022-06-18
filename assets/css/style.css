@@ -546,6 +546,89 @@ ul.navbar-nav.mr-auto {
   margin-bottom: 8px;
   width: 50%;
 }
+.left_menu_bg_grey .line1{
+  margin-bottom: 8px;
+  width: 45%;
+}
+
+.left_menu_bg_grey .line01{
+  margin-bottom: 8px;
+  width: 40%;
+}
+.left_menu_bg_grey .line21,.line22,.line23,.line24, .line26,.line27,.line28, .line30{
+  margin-bottom: 8px;
+  width: 45%;
+}
+
+.line25, .line29{
+   margin-bottom: 8px;
+  width: 40%;
+
+}
+.left_menu_bg_grey .line2{
+ 
+    position: absolute;
+    
+    margin-top: 14px;
+    left: 163px;
+    width: 38%;
+}
+
+ .line21 {
+   position: absolute;  
+    margin-top: 14px;
+    left: 137px;    
+ }
+
+  .line23 {
+   position: absolute;  
+    margin-top: 14px;
+    left: 137px;    
+ }
+  .line24 {
+   position: absolute;  
+    margin-top: 14px;
+    left: 134px;    
+ }
+  .line25 {
+   position: absolute;  
+    margin-top: 14px;
+    left: 171px;    
+ }
+
+
+  .line26 {
+   position: absolute;  
+    margin-top: 14px;
+    left: 140px;
+    
+ }
+ 
+  .line27 {
+   position: absolute;  
+    margin-top: 14px;
+    left: 132px;    
+ }
+ 
+  .line28 {
+   position: absolute;  
+    margin-top: 14px;
+    left: 116px;    
+ }
+ 
+  .line29 { 
+    position: absolute;
+    margin-top: 14px;
+    left: 77px;
+    width: 45%;
+  
+ }
+   .line30 {
+   position: absolute;  
+    margin-top: 14px;
+    left: 118px;   
+     width: 45%; 
+ }
 
 .menu_content .menu_small_des {
   color: #666666;
