@@ -1607,6 +1607,33 @@ img.left_menu_img {
   font-size: 56px !important;
 }
 
+
+  .menu_section .arrow {
+    margin-left: 40px !important;
+}
+
+.contact_form .form {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 65px 77px 0px 40px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+
+.contact_form .form-group {
+    position: relative;
+    margin-bottom: 10px !important;
+}
+.responsive-map {
+    margin-top: -20px;
+}
+
  .swiper-button-next{ 
   right: 5rem;
     margin-top: 2rem;
@@ -1654,6 +1681,7 @@ img.left_menu_img {
   ul.navbar-nav.mr-auto {
     height: 27px !important;
   }
+
 
 .testimonial_body{
   /* top: 20% !important; */
