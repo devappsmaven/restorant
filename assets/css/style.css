@@ -389,7 +389,7 @@ ul.navbar-nav.mr-auto {
 
 .testimonials_section {
   position: relative;
-  padding: 65px 0px 10px;
+  padding: 65px 0px 0px;
   width: 100%;
   overflow-x: hidden;
 }
@@ -1042,6 +1042,18 @@ img.line1.m_line3,.line37 {
 p.opening_days {
   margin-top: 10px;
 }
+
+
+
+/* Contact Page */
+
+.contact_left{
+  display: flex;
+    justify-content: flex-start;
+    grid-gap: 15px;
+}
+
+
 
 /* RESPONSIVE CSS
   -------------------------------------------------- */
