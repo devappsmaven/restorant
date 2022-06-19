@@ -1054,7 +1054,54 @@ p.opening_days {
 }
 
 
+/* Gallery Page CSS */
+.gallery_page img{
+  width: 100%;
+}
 
+
+.gallery_page .firstChildImage img, .gallery_page .secondChildImage img, .gallery_page .thirdChildImage img{
+  width: 100%;
+  margin-bottom: 30px;
+      transition: 0.9s;
+      object-fit:cover
+}
+
+
+.gallery_page .firstChildImage img:hover, .gallery_page .secondChildImage img:hover, .gallery_page .thirdChildImage img:hover{
+  width: 100%;
+  margin-bottom: 20px;
+  transform: scale(1.1);
+}
+
+.gallery_page  .view_menu_btn{
+  padding: 8px 30px;
+    border: none;
+    background: #a51d23;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+}
+.gallery_page  button.view_menu_btn:focus{
+  border: none;
+  outline: none;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+    width: 100% !important;
+    object-fit: contain;
+}
+.gallery_banner .main_item .menu .carousel-caption {
+    bottom: 0px ;
+    z-index: 10;
+    font-family: "Cormorant Garamond";
+    top: 14rem ;
+}
 /* RESPONSIVE CSS
   -------------------------------------------------- */
 
