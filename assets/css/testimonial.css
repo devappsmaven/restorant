@@ -54,7 +54,7 @@
 .slide-container {
     max-width: 1120px;
     width: 100%;
-    padding: 42px 0;
+    padding: 40px 0 !important;
     margin-top: 20px;
 }
 
@@ -76,6 +76,7 @@
 
 .card-content p{
     font-size: 14px;
+    font-style: italic;
 }
 
 .image-content {
