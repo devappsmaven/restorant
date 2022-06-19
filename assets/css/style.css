@@ -1197,6 +1197,11 @@ p.opening_days {
     margin-bottom: 2rem;
 }
 
+.about_section.about_page {
+    margin-bottom: -2rem;
+    padding-top:1rem;
+}
+
 /* RESPONSIVE CSS
   -------------------------------------------------- */
 
@@ -1249,6 +1254,12 @@ p.opening_days {
     font-size: 40px;
     user-select: none;
   }
+  .about_img img {
+    width: 100%;
+    flex-basis: fit-content;
+    background-size: cover;
+    height: auto;
+}
 }
 
 /* Smartphones (landscape) ----------- */
