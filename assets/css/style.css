@@ -116,6 +116,15 @@ ul.navbar-nav.mr-auto {
   font-family: jost !important;
 }
 
+.dropdown-menu{
+background-color: #e9b61c;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #a51d23;
+}
+
 .active {
   background-color: #a51d23;
   padding-left: 40px !important;
