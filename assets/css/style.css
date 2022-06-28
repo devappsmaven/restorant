@@ -27,6 +27,13 @@ body {
   height: 9px;
 }
 
+.text-menu-2 {
+  position: absolute;
+  top: 0;
+  background: #fff;
+  padding: 0 12px 0 0;
+}
+
 .text-menu {
   position: absolute;
   top: 0;
@@ -1874,6 +1881,18 @@ textarea.form-control {
     z-index: 10;
     font-family: "Cormorant Garamond";
     top: 9rem;
+  }
+
+  .img_container {
+    display: none;
+  }
+
+  .text-menu {
+    position: inherit;
+  }
+
+  .text-menu-2 {
+    position: inherit;
   }
 
   .menu_heading {
