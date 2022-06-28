@@ -5,16 +5,14 @@
 }
 
 
-.testimonial_body{
-        left: 0;
+.testimonial_body {
+    left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
     width: 58%;
     background: transparent;
-   
-    top: 20%;
 }
 
 
@@ -27,11 +25,12 @@
     background-color: #a61d24;
 }
 
-.quotes{
+.quotes {
     text-align: center;
     margin-top: 15px;
 }
-.quotes img{
+
+.quotes img {
     width: 45px;
 }
 
@@ -71,11 +70,12 @@
     flex-direction: column;
     align-items: center;
     padding: 50px 14px 10px;
-    height: 280px;
+    height: 340px;
 }
 
-.card-content p{
+.card-content p {
     font-size: 14px;
+    font-weight: 500;
     font-style: italic;
 }
 
@@ -84,7 +84,7 @@
 }
 
 .rating {
-        color: #ffc107;
+    color: #ffc107;
 }
 
 .card-image {
@@ -134,8 +134,8 @@
 
 .swiper-navBtn {
     color: #fff;
-     background: #403e3e;
-      width: 50px;
+    background: #403e3e;
+    width: 50px;
     height: 50px;
     border-radius: 100%;
     opacity: 0.8;
@@ -143,8 +143,8 @@
 
 .swiper-navBtn:hover {
     color: #fff;
-     background: #403e3e;
-      width: 50px;
+    background: #403e3e;
+    width: 50px;
     height: 50px;
     border-radius: 100%;
     opacity: 0.8;
@@ -158,25 +158,35 @@
     left: 15rem;
 }
 
-.swiper-button-next:after, .swiper-button-prev:after {
+.swiper-button-next:after,
+.swiper-button-prev:after {
     font-family: swiper-icons;
-    
+
     font-size: 18px !important;
     font-weight: 800 !important;
 }
 
+@media only screen and (max-width:1024px) {
+
+    .image-content,
+    .card-content {
+        height: auto;
+        text-align: center;
+    }
+}
 
 @media screen and (max-width:820px) {
-     .testimonial_body {
-    left: 0px;
-    right: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    width: 58%;
-    background: transparent;
-    top: 0%;
-}
+    .testimonial_body {
+        left: 0px;
+        right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        width: 58%;
+        background: transparent;
+        top: 0%;
+    }
+
     .slide-content {
         margin: 0 10px;
     }
@@ -184,20 +194,23 @@
     .swiper-navBtn {
         display: none;
     }
-   
+
 }
 
 @media screen and (max-width:768px) {
-     .testimonial_body {
-    left: 0px;
-    right: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    width: 58%;
-    background: transparent;
-    top: 0%;
-}
+    .testimonial_body {
+        left: 0px;
+        right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        width: 58%;
+        background: transparent;
+        top: 0%;
+    }
+
+
+
     .slide-content {
         margin: 0 10px;
     }
@@ -205,5 +218,5 @@
     .swiper-navBtn {
         display: none;
     }
-   
+
 }

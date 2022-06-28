@@ -34,9 +34,9 @@
     <!-- Top Header section start -->
 
     <div class="container-fluid mt-3 top_header_section">
-        <div class="top_header">
+        <div class="top_header container-fluid">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="col-4 col-sm-4 col-md-4  col-lg-4 ">
                     <div class="header_contact">
                         <div class="">
                             <img src="assets/images/call-icon.png" alt="" srcset="" />
@@ -48,13 +48,13 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 header_logo">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4 header_logo">
                     <div class="logo">
                         <img src="assets/images/logo.png" alt="" srcset="" />
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                     <div class="social">
                         <img src="assets/images/fb.png" alt="" class="social_icon" />
                         <img src="assets/images/instagram.png" alt="" class="social_icon" />
@@ -110,14 +110,13 @@
 
 
     <section>
-        <div class="gallery_banner">
+        <div class="gallery_banner sec_content contact_us">
             <div class="main_item">
-                <img src="assets/images/contact-us-slice/banner.png" alt="" />
-                <div class="container menu">
-                    <div class="carousel-caption">
-                        <h1>Contact Us</h1>
 
-                    </div>
+                <div class="container menu">
+
+                    <h1>Contact Us</h1>
+
                 </div>
             </div>
         </div>
@@ -133,91 +132,95 @@
 
 
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="col-lg-4 col-md-12">
                         <div class="contact_left">
                             <div class="contact_icon">
                                 <img src="assets/images/contact-us-slice/address-icon.png" alt="" srcset="">
-                                <img src="assets/images/contact-us-slice/phone.png" alt="" srcset="">
-                                <img src="assets/images/contact-us-slice/email.png" alt="" srcset="">
-                                <img src="assets/images/contact-us-slice/time.png" alt="" srcset="">
-                            </div>
-                            <div class="content">
                                 <div class="contact_address">
                                     <h5 class="title">Address</h5>
                                     <p> Salva D'or Italian Restaurant & Pizzeria 350 Cameron Road,
                                         Tauranga 3110, New Zealand</p>
                                 </div>
+                            </div>
+
+                            <div class="contact_icon">
+                                <img src="assets/images/contact-us-slice/phone.png" alt="" srcset="">
                                 <div class="contact_address">
                                     <h5 class="title">Phone</h5>
                                     <p>075788000</p>
                                 </div>
+                            </div>
+                            <div class="contact_icon">
+                                <img src="assets/images/contact-us-slice/email.png" alt="" srcset="">
                                 <div class="contact_address">
                                     <h5 class="title">Email</h5>
                                     <p>restaurant@salvador.co.nz</p>
                                 </div>
+                            </div>
+                            <div class="contact_icon">
+                                <img src="assets/images/contact-us-slice/time.png" alt="" srcset="">
                                 <div class="contact_address">
                                     <h5 class="title">Opening Hours</h5>
                                     <p>
                                         Tuesday-Sunday
-
-                                        5:00pm - Till Late
+                                        <br>
+                                        5:00pm - Till Late<br>
 
                                         Monday-Closed
                                     </p>
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
 
-                    <div class="col-lg-4 col-md-4 col-sm-12 ">
-                        <div class="">
-                            <div class="form-group">
-                                <span><i class="fa fa-user" aria-hidden="true"></i> </span>
 
-                                <input type="text" class="form-control" id="name" aria-describedby="nameHelp"
-                                    placeholder="First name" />
-                            </div>
-                            <div class="form-group">
-                                <span><i class="fa fa-user" aria-hidden="true"></i> </span>
+                    <div class="col-lg-8 col-md-12 ">
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-6">
+                                <div class="form-group">
+                                    <span><i class="fa fa-user" aria-hidden="true"></i> </span>
 
-                                <input type="text" class="form-control" id="name" aria-describedby="nameHelp"
-                                    placeholder="Last name" />
+                                    <input type="text" class="form-control" id="name" aria-describedby="nameHelp"
+                                        placeholder="First name" />
+                                </div>
+                                <div class="form-group">
+                                    <span><i class="fa fa-user" aria-hidden="true"></i> </span>
+
+                                    <input type="text" class="form-control" id="name" aria-describedby="nameHelp"
+                                        placeholder="Last name" />
+                                </div>
+
+                                <div class="form-group">
+                                    <span><i class="fa fa-envelope" aria-hidden="true"></i> </span>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <span><i class="fa fa-phone" aria-hidden="true"></i> </span>
+                                    <input type="phoneNumber" class="form-control" id="phoneNumber"
+                                        placeholder="Phone" />
+                                </div>
                             </div>
 
-                            <div class="form-group">
-                                <span><i class="fa fa-envelope" aria-hidden="true"></i> </span>
-                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="Email" />
+                            <div class="col-12 col-md-12 col-lg-6">
+                                <div class="form-group">
+                                    <span><i class="fa fa-pencil"></i> </span>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"
+                                        placeholder="Message"></textarea>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <span><i class="fa fa-phone" aria-hidden="true"></i> </span>
-                                <input type="phoneNumber" class="form-control" id="phoneNumber" placeholder="Phone" />
-                            </div>
+                            <div class="col-12 text-center">
+                                <div class="text-center submit_form">
+                                    <a href="#" class="contact_submit_btn">Submit</a>
+                                </div>
 
-                            <div class="text-center submit_form">
-                                <a href="#" class="contact_submit_btn">Submit</a>
-                            </div>
 
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 ">
-                        <div class="form-group">
-                            <span><i class="fa fa-pencil"></i> </span>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"
-                                placeholder="Message"></textarea>
-                        </div>
-                    </div>
-
-
-
-
-
-
-
                 </div>
-
-
 
             </div>
         </div>
@@ -238,13 +241,13 @@
     <div class="footer_section">
         <footer class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="vertical_line">
                         <span class="line"></span>
                         <p class="footer_heading">Links</p>
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
-                                <ul>
+                                <ul class="mb-0">
                                     <li>
                                         <span class="mr-1"><img src="assets/images/back.png" class="footer_back_icon"
                                                 alt="" /></span><a href="#home">Home</a>
@@ -278,7 +281,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="vertical_line">
                         <span class="line"></span>
                         <p class="footer_heading">Address</p>
@@ -295,7 +298,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-6">
                     <div class="vertical_line">
                         <span class="line"></span>
                         <p class="footer_heading">Contact Us</p>
@@ -318,7 +321,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-2">
+                <div class="col-lg-2 col-md-6">
                     <span class="line"></span>
                     <p class="footer_heading">Opening Hours</p>
                     <div class="row">

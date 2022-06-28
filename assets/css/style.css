@@ -17,6 +17,171 @@ body {
   overflow-x: hidden;
 }
 
+.menu_line img {
+  width: 167px;
+}
+
+.img_container {
+  position: relative;
+  width: 100%;
+  height: 9px;
+}
+
+.text-menu {
+  position: absolute;
+  top: 0;
+  background: #f8f8f8;
+  padding: 0 12px 0 0;
+}
+
+.bg-line {
+  background: url('../images/line-bar.png');
+  width: 100%;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-line span {
+  background-color: #f8f8f8;
+  position: relative;
+  top: -3px;
+  padding: 14px 10px 2px 0;
+}
+
+.sec_takeaway {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.sec_takeaway p {
+  border: 1px solid grey;
+  text-align: center;
+  padding: 40px 15px;
+  font-size: 21px;
+
+}
+
+.card-bg {
+  box-shadow: 0 0 11px 1px #eaf2f9;
+  border: none;
+}
+
+.card .card-img-top {
+  height: 230px;
+  object-fit: cover;
+
+}
+
+.card-body small {
+  font-size: 16px;
+}
+
+.card-body .menu_heading {
+  font-size: 45px;
+}
+
+.card-body .menu_content p {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.card-body .menu_item2 {
+  position: relative;
+  margin-top: 10px;
+}
+
+.menu_footer_icon .arrow_div a img {
+  width: 50%;
+}
+
+.menu_footer_icon {
+  padding: 10px 13px 12px;
+}
+
+.menu_footer_icon p {
+  margin-bottom: 0;
+  line-height: 27px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.menu_footer_icon1 {
+  padding: 20px 13px 12px;
+}
+
+.menu_footer_icon1 p {
+  margin-bottom: 0;
+  line-height: 27px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.menu_footer_icon1 .arrow_div a img {
+  width: 64%;
+}
+
+.contact_form .form-group {
+  margin-bottom: 13px !important;
+}
+
+.form_bg {
+  background: url('../images/contact.png');
+  padding: 32px;
+  margin-bottom: 15px;
+}
+
+.btn_contact_us {
+  padding: 6px 50px;
+  background: #a51d23;
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: 400;
+
+  width: fit-content;
+}
+
+.sec_content {
+  width: 100%;
+  text-align: center;
+  height: 300px;
+  background-size: cover;
+  line-height: 300px;
+}
+
+.sec_content h1 {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  font-weight: 800;
+  font-size: 55px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.about_banner {
+  background: url('../images/about-slice/banner.png');
+}
+
+.takeaway_banner {
+  background: url('../images/takeway-menu-slice/banner.png');
+}
+
+.menu_banner {
+  background: url('../images/menu_page_banner.png');
+}
+
+.gallery_img_banner {
+  background: url('../images/gallery-slice/banner.png');
+}
+
+
+.contact_us {
+  background: url('../images/contact-us-slice/banner.png');
+}
 
 
 section {
@@ -67,7 +232,7 @@ a:hover {
 }
 
 .header_contact .contact p.number {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 800;
 }
 
@@ -78,11 +243,12 @@ a:hover {
 }
 
 .logo img {
-  width: 18rem;
+  width: 13rem;
 }
 
 .social {
   float: right;
+
 
   padding-top: 7px;
 
@@ -90,6 +256,7 @@ a:hover {
 
 .social .social_icon {
   padding: 2px;
+  width: 36px;
 }
 
 
@@ -98,6 +265,7 @@ a:hover {
 /* ************************ Navbar Css ************************ */
 .navbar {
   background-color: #e9b61c !important;
+  padding: 0;
 }
 
 ul.navbar-nav.mr-auto {
@@ -114,15 +282,19 @@ ul.navbar-nav.mr-auto {
   text-transform: uppercase;
   font-size: 18px;
   font-family: jost !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
 }
 
-.dropdown-menu{
-background-color: #e9b61c;
+.dropdown-menu {
+  background-color: #e9b61c;
 }
-.dropdown-item:focus, .dropdown-item:hover {
-    color: #16181b;
-    text-decoration: none;
-    background-color: #a51d23;
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #a51d23;
 }
 
 .active {
@@ -130,6 +302,10 @@ background-color: #e9b61c;
   padding-left: 40px !important;
   padding-right: 40px !important;
   color: white;
+}
+
+.header_contact img {
+  width: 34px;
 }
 
 /* ********************* Header Slider **************** */
@@ -265,7 +441,9 @@ a.banner_view_menu_btn {
   width: 100%;
   flex-basis: fit-content;
   background-size: cover;
-  height: 390px;
+  height: 430px;
+  margin-top: 14px;
+  margin-bottom: 29px;
 }
 
 /* Menu css */
@@ -277,11 +455,13 @@ a.banner_view_menu_btn {
 .menu_section {
   width: 100%;
 }
-.menu_page_section{
-    padding: 2rem 0 3rem 0px;
+
+.menu_page_section {
+  padding: 2rem 0 3rem 0px;
 }
-.menu_page_section_gray{
-    padding: 3rem 0 3rem 0px;
+
+.menu_page_section_gray {
+  padding: 3rem 0 3rem 0px;
 }
 
 .menu_heading h1 {
@@ -303,21 +483,23 @@ a.banner_view_menu_btn {
 }
 
 .menu_footer1 {
-  display: flex;
+
   background-color: #fff;
   font-size: 20px;
   font-weight: 600;
   padding: 2px 10px;
-  line-height:45px;
+  line-height: 45px;
   height: 50px;
 }
-  .menu_footer1 p{
-    padding-left: 10px;
-        padding-top: 1px;
-  }
-  .menu_footer1 .arrow_footer1{
-    padding-right: 0px;
-  }
+
+.menu_footer1 p {
+  padding-left: 10px;
+  padding-top: 1px;
+}
+
+.menu_footer1 .arrow_footer1 {
+  padding-right: 0px;
+}
 
 .menu_footer {
   display: flex;
@@ -355,6 +537,7 @@ a.banner_view_menu_btn {
 .contact_form {
   position: relative;
   /* height: 80vh; */
+  z-index: 99999999;
 }
 
 .contact_form .contact_heading {
@@ -378,20 +561,11 @@ a.banner_view_menu_btn {
 }
 
 .contact_form .form-control {
-  padding-left: 40px;
+  padding-left: 47px;
 }
 
 .contact_form .form-group {
   position: relative;
-}
-
-.contact_form .form-group span {
-  position: absolute;
-  top: 7px;
-  left: 10px;
-  border-right: 1px solid #6c757d;
-  width: 6%;
-  opacity: 0.9;
 }
 
 
@@ -400,7 +574,7 @@ a.banner_view_menu_btn {
   position: absolute;
   top: 7px;
   left: 10px;
-  border-right: 1px solid #6c757d;
+  border-right: 1px solid #6c757d66;
   width: 7%;
   opacity: 0.9;
 }
@@ -420,11 +594,11 @@ a.banner_view_menu_btn {
   color: #6c757d;
 }
 
-   .contact_page.contact_form .form-group span i {
-     font-size: 12px;
-    color: #000000;
-    opacity: 1;
-    }
+.contact_page.contact_form .form-group span i {
+  font-size: 12px;
+  color: #000000;
+  opacity: 1;
+}
 
 
 .contact_form button {
@@ -447,6 +621,9 @@ a.banner_view_menu_btn {
   padding: 65px 0px 0px;
   width: 100%;
   overflow-x: hidden;
+  background: url('../images/testimonials.png');
+  height: 615px;
+  margin-top: 42px;
 }
 
 .testimonials_section .testimonial_banner {
@@ -457,7 +634,10 @@ a.banner_view_menu_btn {
 .testimonials_username {
   color: #a51d23;
   font-family: "Cormorant Garamond";
-  font-size: 20px;
+  font-size: 21px;
+  margin-top: 10px;
+  display: block;
+  font-style: initial;
 }
 
 /* Top reviews css */
@@ -537,7 +717,7 @@ a.banner_view_menu_btn {
   border-bottom: 2px solid white;
   width: 27px;
   font-weight: 500;
-  top: 33px;
+  top: 45px;
 }
 
 .footer_section .fa-thin {
@@ -546,9 +726,10 @@ a.banner_view_menu_btn {
 }
 
 .footer_section p.footer_heading {
-  font-size: 20px;
-
+  font-size: 16px;
+  padding-bottom: 21px;
   font-weight: 500;
+  padding-top: 19px;
 }
 
 .footer_section .hr_line {
@@ -563,9 +744,30 @@ a.banner_view_menu_btn {
   width: 97%;
 }
 
+.copyright {
+  font-size: 13px;
+}
 
 .footer_section .footer_back_icon {
   transform: rotate(180deg);
+}
+
+.address_details {
+  font-size: 14px;
+}
+
+.number,
+.email {
+  font-size: 14px;
+}
+
+.opening_days,
+.opening_timing {
+  font-size: 14px;
+}
+
+.footer_section li a {
+  font-size: 14px;
 }
 
 /* footer section end here */
@@ -591,6 +793,7 @@ a.banner_view_menu_btn {
 
 .menu_content {
   margin-bottom: 1rem;
+
 }
 
 .menu_item1 p,
@@ -1176,7 +1379,7 @@ img.line1.m_line3,
 
 .last_menu_img {
   position: absolute;
-  top: -100px;
+  top: -140px;
 }
 
 p.opening_days {
@@ -1188,11 +1391,6 @@ p.opening_days {
 
 /* Contact Page */
 
-.contact_left {
-  display: flex;
-  justify-content: flex-start;
-  grid-gap: 15px;
-}
 
 
 /* Gallery Page CSS */
@@ -1254,7 +1452,7 @@ p.opening_days {
 }
 
 .about_section.about_page {
-  margin-bottom: -2rem;
+  margin-bottom: 0rem;
   padding-top: 1rem;
 }
 
@@ -1262,22 +1460,24 @@ p.opening_days {
 
 
 .contact_icon img {
-  width: 50px;
+  width: 40px;
+  height: fit-content;
 }
 
 .contact_icon {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .contact_icon img:nth-of-type(2) {
- padding-top: 2.3rem;
+  padding-top: 2.3rem;
 
 }
+
 .content .contact_address:nth-of-type(2) {
 
-     padding-top: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 
@@ -1298,7 +1498,7 @@ p.opening_days {
 
 .content .contact_address:nth-of-type(4) {
 
-padding-top: 1.1rem;
+  padding-top: 1.1rem;
 }
 
 
@@ -1310,10 +1510,10 @@ padding-top: 1.1rem;
 
 .contact_left .contact_address p {
   font-size: 15px;
-    line-height: 18px;
-    font-weight: 400;
-    /* margin: 0px; */
-    margin-top: -5px;
+  line-height: 18px;
+  font-weight: 400;
+  /* margin: 0px; */
+  margin-top: -5px;
 }
 
 .contact_form.contact_page .form-group {
@@ -1321,11 +1521,7 @@ padding-top: 1.1rem;
   margin-bottom: 13px !important;
 }
 
-.submit_form {
-  float: right;
-  position: relative;
-  top: 20px;
-}
+
 
 .contact_submit_btn {
   padding: 6px 50px;
@@ -1333,9 +1529,14 @@ padding-top: 1.1rem;
   color: #fff;
   font-size: 18px;
   font-weight: 400;
-  position: absolute;
-  cursor: pointer;
-  left: -55px;
+  display: block;
+  width: fit-content;
+  margin: 12px auto;
+
+}
+
+textarea.form-control {
+  padding-bottom: 22px;
 }
 
 .full_map_frame {
@@ -1346,7 +1547,8 @@ padding-top: 1.1rem;
   height: 397px;
 }
 
-.contact_page input,.contact_page textarea {
+.contact_page input,
+.contact_page textarea {
   border-radius: 0px;
 }
 
@@ -1388,6 +1590,534 @@ padding-top: 1.1rem;
  */
 
 /* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-width:2560px) {
+
+  .gallery_banner .main_item .menu .carousel-caption {
+    bottom: 0px;
+    z-index: 10;
+    font-family: "Cormorant Garamond";
+    top: 18rem;
+  }
+
+
+
+  .header_contact img {
+    width: 60px;
+  }
+
+  .header_contact .contact p.call_us {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .header_contact .contact p.number {
+    font-size: 35px;
+  }
+
+  .social .social_icon {
+
+    width: 61px;
+  }
+
+}
+
+@media only screen and (min-width : 1824px) {
+
+
+
+  .header_contact img {
+    width: 30px;
+
+  }
+
+  .header_contact .contact p.call_us {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .header_contact .contact p.number {
+    font-size: 21px;
+  }
+
+  .social .social_icon {
+    /* padding: 0px; */
+    width: 33px;
+  }
+
+  /* Styles */
+  ul.navbar-nav.mr-auto {
+    height: 27px !important;
+  }
+
+
+  .testimonial_body {
+    width: 80%;
+  }
+
+  .swiper-button-prev {
+
+    left: 15rem;
+
+
+  }
+
+  .swiper-button-next {
+    right: 15rem;
+
+  }
+
+
+
+}
+
+@media only screen and (max-width:1500px) {
+  .menu_line img {
+    width: 151px;
+  }
+}
+
+@media only screen and (min-width : 1440px) {
+
+
+  .header_contact img {
+    width: 35px;
+  }
+
+  .header_contact .contact p.call_us {
+    font-size: 15px;
+    line-height: 12px;
+  }
+
+  .header_contact .contact p.number {
+    font-size: 23px;
+  }
+
+  .testimonials_section .testimonial_banner {
+    width: 100%;
+    height: 480px;
+  }
+
+  .testimonial_body {
+    width: 80%;
+  }
+
+  .testimonials_section .testimonials_heading {
+    color: #fff;
+    font-family: Cormorant Garamond;
+    text-align: center;
+    /* margin: 40px 0 25px 0px !important; */
+    font-size: 56px !important;
+  }
+
+
+  .menu_section .arrow {
+    margin-left: 40px !important;
+  }
+
+  .contact_form .form {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 65px 77px 0px 40px;
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 5px;
+  }
+
+
+  .contact_form .form-group {
+    position: relative;
+    margin-bottom: 13px !important;
+  }
+
+  .responsive-map {
+    margin-top: -20px;
+  }
+
+  .swiper-button-next {
+    right: 5rem;
+    margin-top: 2rem;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    opacity: 0.8;
+  }
+
+  .swiper-button-prev {
+    left: 5rem;
+    margin-top: 2rem;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    opacity: 0.8;
+  }
+
+  .map_image {
+    width: 540px !important;
+  }
+}
+
+@media only screen and (max-width:1385px) {
+  .menu_line img {
+    width: 119px;
+  }
+}
+
+@media only screen and (min-width :1280px) {
+
+  .header_contact img {
+    width: 33px;
+  }
+
+  .header_contact .contact p.number {
+    font-size: 20px;
+  }
+
+  .header_contact .contact p.call_us {
+    font-size: 17px;
+    line-height: 16px;
+  }
+
+  .social .social_icon {
+    padding: 0px;
+    width: 33px;
+  }
+
+  .testimonial_body {
+    width: 80%;
+  }
+
+
+
+}
+
+@media screen and (max-width :1280px) {
+  .navbar .nav-item a {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .menu_line img {
+    display: none
+  }
+
+  /* MENU CSS END */
+  .about_section,
+  .our_menu,
+  .gallery {
+    padding-left: 10px;
+  }
+
+  .menu_price {
+    font-weight: 500;
+    color: #a61d24;
+  }
+
+  .responsive-map {
+    margin-top: 0px !important
+  }
+
+  .map_image {
+    margin-top: 0px !important;
+  }
+
+  .testimonials_section .testimonial_banner {
+    width: 100%;
+    height: 475px;
+  }
+
+  .testimonials_section .testimonials_heading {
+    color: #fff;
+    font-family: Cormorant Garamond;
+    text-align: center;
+    margin: 73px 0 0px 0px !important;
+    font-size: 50px !important;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+
+  /* Styles */
+  ul.navbar-nav.mr-auto {
+    height: 27px !important;
+  }
+
+  .testimonial_body {
+    width: 80%;
+  }
+
+  .swiper-button-prev {
+
+    left: 1rem;
+    margin-top: 0rem;
+
+  }
+
+  .swiper-button-next {
+    right: 1rem;
+    margin-top: 0rem;
+  }
+
+
+
+}
+
+@media only screen and (max-width : 1024px) {
+  .gallery_banner .main_item .menu .carousel-caption {
+    bottom: 0px;
+    z-index: 10;
+    font-family: "Cormorant Garamond";
+    top: 9rem;
+  }
+
+  .menu_heading {
+    padding-left: 10px;
+  }
+
+  .menu_item1 {
+    position: relative;
+    padding: 10px;
+  }
+
+  .menu .carousel-caption h1 {
+    font-size: 45px;
+    user-select: none;
+  }
+
+  .right_menu_img img {
+    width: 100%;
+    height: fit-content;
+  }
+
+
+  .main_full_map_frame {
+    height: 331px;
+  }
+
+  .header_contact img {
+    width: 34px;
+  }
+
+  .header_contact .contact p.number {
+    font-size: 16px;
+  }
+
+  .header_contact .contact p.call_us {
+    font-size: 13px;
+    line-height: 11px;
+  }
+
+  .social .social_icon {
+    padding: 0px;
+    width: 26px;
+  }
+
+  .card-content p {
+    font-size: 13px;
+
+  }
+
+  .testimonial_body {
+    padding-top: 20px;
+  }
+
+  .slide-container {
+    max-width: 1120px;
+    /* width: 56%; */
+    padding: 26px 0;
+    overflow-y: hidden;
+    margin-top: 0px;
+  }
+
+}
+
+@media only screen and (min-width : 1024px) {
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    margin-top: 0rem;
+  }
+
+  .testimonial_body {
+    width: 79%;
+  }
+
+  .swiper-button-prev {
+    left: 3rem;
+  }
+
+  .swiper-button-next {
+    right: 3rem;
+  }
+
+}
+
+@media only screen and (max-width:990px) {
+  .d_set {
+    display: flex;
+    gap: 28px;
+  }
+
+  .menu_footer_icon1 .arrow_div a img {
+    width: 24%;
+  }
+
+  .contact_page.contact_form .form-group span {
+    width: 3.5%;
+  }
+}
+
+@media only screen and (max-width : 912px) {
+  .contact_form .form-control {
+    padding-left: 62px;
+  }
+
+  .top_header {
+    padding: 0 1rem;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+
+  .footer_section .vertical_line {
+    border: none;
+  }
+
+  .left_menu_bg_grey .menu_heading {
+    padding-top: 20px;
+  }
+
+
+
+  .menu_item2 {
+    position: relative;
+    margin-top: 0px;
+    padding: 10px;
+  }
+
+  .right_menu_img {
+    padding: 10px;
+  }
+
+  .last_menu_img {
+    position: initial;
+
+  }
+
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+
+
+  .footer_section {
+    background-color: #000;
+    color: #fff;
+    padding: 25px 0px;
+    position: relative;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact_form .form-group span {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    border-right: 1px solid #6c757d;
+    width: 6%;
+    opacity: 0.9;
+  }
+
+
+  .main_full_map_frame {
+    height: 244px !important;
+  }
+}
+
+@media only screen and (max-width:767px) {
+
+  .header_contact .contact p.number {
+    font-size: 15px;
+  }
+
+  .sec_takeaway {
+    height: auto;
+  }
+
+  .menu_page_section_gray {
+    padding: 0px;
+
+  }
+
+  .menu_footer_icon1 .arrow_div a img {
+    width: 38%;
+  }
+
+  .social .social_icon {
+    padding: 0px;
+    width: 24px;
+  }
+
+  .menu_page_section {
+    padding: 0;
+  }
+
+  .testimonials_section {
+    height: 553px;
+    padding: 65px 30px 0px;
+  }
+
+  .menu_heading {
+    padding-top: 24px;
+  }
+
+  .contact_form.contact_page .form-group span {
+    width: 7% !important;
+  }
+
+  .contact_icon img:nth-of-type(2) {
+    padding-top: 13px;
+  }
+
+  .image-content,
+  .card-content {
+    height: auto;
+    text-align: center;
+  }
+
+  .top_review .top_review_inner img {
+    height: 80px;
+    margin: auto;
+    display: block;
+  }
+
+  .gallery .gallery_section img {
+    margin-top: 12px;
+  }
+
+  .gallery .gallery_section .gallery_bottom_img {
+    margin-top: 3px;
+  }
+}
+
+
+
+
+
+
+
+
+/* Large screens ----------- */
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
   /* Styles */
@@ -1410,11 +2140,6 @@ padding-top: 1.1rem;
     background-size: cover;
     height: auto;
   }
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-  /* Styles */
 }
 
 /* Smartphones (portrait) ----------- */
@@ -1508,10 +2233,6 @@ padding-top: 1.1rem;
     height: auto !important;
   }
 
-  .logo img {
-    width: 6rem;
-  }
-
   .social .social_icon {
     /* padding: 2px; */
     width: 25px;
@@ -1545,7 +2266,7 @@ padding-top: 1.1rem;
 
     margin-bottom: 20px;
   }
- 
+
 
   /* contact us section */
   .contact_form .contact_heading {
@@ -1563,10 +2284,6 @@ padding-top: 1.1rem;
     padding-top: 15px !important;
   }
 
-  .contact_form .form-group {
-    position: relative;
-    margin-bottom: 0px !important;
-  }
 
   .contact_form .form-control {
 
@@ -1599,10 +2316,6 @@ padding-top: 1.1rem;
   .testimonials_section {
 
     padding: 0px;
-
-
-    height: 100%;
-
     overflow-y: hidden;
   }
 
@@ -1647,22 +2360,14 @@ padding-top: 1.1rem;
 
 
 @media only screen and (min-width: 375px) {
-  .logo img {
-    width: 6rem;
+
+
+  .form-control {
+    padding: 7px 0 7px 0px;
+
   }
 
-  .header_contact .contact p.number {
-    font-size: 15px;
-  }
 
-  .social .social_icon {
-    padding: 0px;
-    width: 23px;
-  }
-
-  .header_contact img {
-    width: 26px;
-  }
 
   .menu_section .arrow {
     margin-left: 37px !important;
@@ -1672,14 +2377,11 @@ padding-top: 1.1rem;
     position: absolute;
     top: 7px;
     left: 10px;
-    border-right: 1px solid #6c757d;
+    border-right: 1px solid #6c757d66;
     width: 8%;
   }
 
-  .contact_form .form-group {
-    position: relative;
-    margin-bottom: 4px !important;
-  }
+
 
   .map_image {
     width: 348px !important;
@@ -1688,7 +2390,7 @@ padding-top: 1.1rem;
 
   .testimonials_section .testimonial_banner {
     width: 100%;
-    height: 400px;
+    height: 470px;
   }
 
   .slide-container {
@@ -1703,8 +2405,9 @@ padding-top: 1.1rem;
     color: #fff;
     font-family: Cormorant Garamond;
     text-align: center;
-    margin: 73px 0 0px 0px !important;
-    font-size: 30px !important;
+    margin: 16px 0 18px 0px !important;
+    font-size: 56px !important;
+    font-weight: 600;
   }
 
   .swiper-slide .image {
@@ -1727,13 +2430,7 @@ padding-top: 1.1rem;
     padding-left: 0px !important;
   }
 
-  .header_contact img {
-    width: 15px;
-  }
 
-  .logo img {
-    width: 7rem;
-  }
 
   /* Styles */
   ul.navbar-nav.mr-auto {
@@ -1748,9 +2445,6 @@ padding-top: 1.1rem;
     width: 330px !important;
 
   }
-
-
-
 }
 
 @media only screen and (max-width : 414px) {
@@ -1779,10 +2473,6 @@ padding-top: 1.1rem;
     font-size: 14px;
   }
 
-  .logo img {
-    width: 6rem;
-  }
-
   .social .social_icon {
     padding: 0px;
     width: 24px;
@@ -1804,15 +2494,9 @@ padding-top: 1.1rem;
 
   }
 
-  .contact_form .form-group {
-    position: relative;
-    margin-bottom: 8px;
-  }
-
   .contact_form button {
 
     padding: 4px;
-
     font-size: 18px;
 
   }
@@ -1829,6 +2513,7 @@ padding-top: 1.1rem;
     flex-direction: column;
     align-items: center;
     padding: 54px 14px 10px;
+    height: auto;
   }
 
   .left_menu_bg_grey .menu_heading {
@@ -1875,27 +2560,15 @@ padding-top: 1.1rem;
     margin: 0px !important;
   }
 
-  .header_contact img {
-    width: 24px;
-  }
+
 
   .header_contact .contact p.call_us {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 9px;
   }
 
-  .header_contact .contact p.number {
-    font-size: 14px;
-  }
 
-  .logo img {
-    width: 6rem;
-  }
 
-  .social .social_icon {
-    padding: 0px;
-    width: 24px;
-  }
 
   .menu_section .arrow {
     margin-left: 54px !important;
@@ -1908,33 +2581,12 @@ padding-top: 1.1rem;
     padding: 11px 77px 0px 40px;
   }
 
-  .contact_form .form-group {
-    position: relative;
-    margin-bottom: 10px;
-  }
 
-  .form-control {
-    display: block;
-    width: 100%;
-    padding: 0px 0 7px 0px;
-  }
 
-  .contact_form .form-group span {
-    position: absolute;
-    top: 7px;
-    left: 10px;
-    border-right: 2px solid #6c757d;
-    width: 6%;
-  }
 
-  .contact_page.contact_form .form-group span{
-    position: absolute;
-    top: 7px;
-    left: 10px;
-    border-right: 0.1px solid #d0d0d0;
-    width: 6%;
-    opacity: 0.5;
-  }
+
+
+
   .contact_form button {
 
     background: transparent;
@@ -1962,6 +2614,10 @@ padding-top: 1.1rem;
 
 
 @media only screen and (max-width : 540px) {
+  .logo img {
+    width: 9rem;
+  }
+
   .top_header {
     padding: 0px 5px;
   }
@@ -1972,7 +2628,10 @@ padding-top: 1.1rem;
 
   }
 
-
+  .d_set {
+    display: block;
+    gap: 28px;
+  }
 
   .header_contact img {
     width: 30px !important;
@@ -1981,7 +2640,7 @@ padding-top: 1.1rem;
   .header_contact .contact {
 
 
-    left: 5px ;
+    left: 5px;
     margin: 0px;
   }
 
@@ -1992,12 +2651,7 @@ padding-top: 1.1rem;
 
 
   .header_contact .contact p.number {
-    font-size: 15px !important;
-
-  }
-
-  .logo img {
-    max-width: 10rem !important;
+    font-size: 12px;
 
   }
 
@@ -2025,7 +2679,7 @@ padding-top: 1.1rem;
     margin-bottom: 30px;
   }
 
- 
+
   .menu_section .arrow {
     margin-left: 108px;
   }
@@ -2098,814 +2752,318 @@ padding-top: 1.1rem;
     height: 100px;
   }
 
-  .contact_submit_btn {
-    padding: 6px 50px;
-    background: #a51d23;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 400;
-    /* position: absolute; */
-    cursor: pointer;
-    /* left: -55px; */
-    top: 6rem;
-    left: -16rem;
-  }
 
 
 }
 
 
 
-@media (min-width:481px) and (max-width:768px) {
-  .top_header {
-    padding: 0 5rem !important;
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  ul.navbar-nav.mr-auto {
+    height: auto !important;
   }
 
-  .footer_section {
-    background-color: #000;
-    color: #fff;
-    padding: 25px 0px;
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+
+
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+  /* Styles */
+
+  .navbar {
+    background-color: #e9b61c !important;
+
+
+  }
+
+  .menu_section .arrow {
+    margin-left: 14px;
+  }
+
+  .menu_section .first_menu,
+  .menu_section .second_menu {
+    margin-bottom: 20px;
+
+  }
+
+  .contact_form .form {
+
+    padding: 18px 74px 0px 45px;
+  }
+
+  .map_image {
+    width: 350px !important;
+    height: 330px !important;
+  }
+
+  .testimonial_body {
+    width: 80%;
+  }
+
+  .swiper-button-next {
+    right: 1rem;
+    margin-top: 1rem;
+  }
+
+  .swiper-button-prev {
+    left: 1rem;
+    margin-top: 1rem;
+  }
+
+
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+
+
+  .top_header_section {
+    margin-bottom: 1rem;
+  }
+
+  /* Styles */
+  ul.navbar-nav.mr-auto {
+    height: auto !important;
+  }
+
+  .header_contact .contact {
+    padding: 0px;
+    margin: 0px;
+    line-height: 0;
     position: relative;
+    top: 0;
+    left: 5px;
+    margin: -2px 0px;
+  }
+
+  .header_contact img {
+    width: 28px;
+  }
+
+  .header_contact .contact p.call_us {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 0px;
+  }
+
+  .header_contact .contact p.number {
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+
+  .social .social_icon {
+    width: 27px;
+  }
+
+
+
+  .map_image {
+    width: 350px !important;
+    height: 300px !important;
+  }
+
+  .separator .line {
+    height: 2px;
+    background-color: #a5252c;
+    width: 8rem;
+  }
+
+  .separator h3 {
+    padding: 0px 10px 0px 0px;
+    margin-bottom: 0px;
+  }
+
+  .about_section h3 {
+    font-size: 25px;
+    color: #a51d23;
+    font-weight: 600;
+  }
+
+  .about_section h2 {
+    font-size: 35px;
+    font-family: Cormorant Garamond;
+    font-weight: 700;
+  }
+
+  .about_section p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .about_img img {
+    width: 100%;
+    flex-basis: fit-content;
+    background-size: cover;
+    height: 300px;
+  }
+
+  .menu_heading h1 {
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-weight: 600;
+    font-size: 45px;
+    padding: 17px 0 2px;
+  }
+
+  .menu_footer1 {
+
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2px 10px;
+    line-height: 36px;
+    height: 38px;
+  }
+
+  .menu_section .arrow {
+    margin-left: -10px;
+  }
+
+  .menu_footer {
+    display: flex;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 10px;
+    line-height: 44px;
 
   }
+
+  .menu_section .arrow,
+  .menu_section .arrow1 {
+    width: 22px;
+    height: 22px;
+  }
+
+  .menu_section .first_menu,
+  .menu_section .second_menu {
+    margin-bottom: 21px;
+    width: 90%;
+  }
+
+  .contact_form .contact_heading {
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-weight: 600;
+    font-size: 45px;
+    padding: 0px 0 10px;
+  }
+
+  /* .contact_form .form-control {
+    padding: 0px 33px;
+  } */
+
+  .contact_form .contact_img {
+    width: 100%;
+    height: 98%;
+  }
+
+  .contact_form .form-group span {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    border-right: 1px solid #6c757d;
+    width: 6%;
+    opacity: 0.9;
+  }
+
+
+  .contact_form .form-group span i {
+    font-size: 12px;
+    color: #6c757d;
+  }
+
+
+  .contact_form .form {
+    padding: 22px 74px 0px 45px;
+  }
+
+  .contact_form button {
+
+    font-size: 16px;
+
+  }
+
+  /* Testimonial */
+
+
+  .testimonials_section {
+    position: relative;
+    overflow-y: hidden;
+    padding: 25px 0px 10px;
+  }
+
+  .testimonials_section .testimonial_banner {
+    width: 100%;
+    height: 400px;
+  }
+
+  .testimonials_section .testimonials .testimonials_heading {
+    color: #fff;
+    font-family: Cormorant Garamond;
+    text-align: center;
+    margin: 15px 0 0px 0px;
+    font-size: 45px;
+  }
+
+
+  .gallery .gallery_heading h1 {
+    font-size: 45px;
+  }
+
+  .footer_section .footer_back_icon {
+    transform: rotate(180deg);
+    width: 20px;
+  }
+
+
+  .footer_section li span {
+    font-size: 10px;
+    margin-right: 0px !important;
+  }
+
+  .footer_section li a {
+    font-size: 10px;
+
+  }
+
+  .footer_section p.footer_heading {
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .footer_section .vertical_line i {
+    margin-left: 0px !important;
+  }
+
+  .footer_section .vertical_line p.address_details,
+  p.number,
+  p.email,
+  p.opening_days,
+  p.opening_timing,
+  p.close_day {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+
+  .footer_section .email_body,
+  .footer_section .number_body {
+    padding: 0px;
+  }
+
+
+
 }
- 
-
-  @media (min-width: 991px) {
-    .logo img {
-      width: 100px;
-    }
-  }
-
-
-  @media only screen and (max-width: 768px) {
-    .contact_form .form-group span {
-      position: absolute;
-      top: 7px;
-      left: 10px;
-      border-right: 1px solid #6c757d;
-      width: 6%;
-      opacity: 0.9;
-    }
-
-
-    .main_full_map_frame {
-      height: 244px !important;
-    }
-  }
-
-
-
-  @media only screen and (max-width : 912px) {
-    .testimonial_body {
-      top: 0px !important;
-    }
-
-
-    .swiper-button-prev,
-    .swiper-button-next {
-      display: none;
-    }
-
-    .footer_section .vertical_line {
-      border: none;
-    }
-
-    .left_menu_bg_grey .menu_heading {
-      padding-top: 20px;
-    }
-
-    .menu_heading {
-      padding-left: 10px;
-    }
-
-    .menu_item1 {
-      position: relative;
-      padding: 10px;
-    }
-
-    .menu_item2 {
-      position: relative;
-      margin-top: 0px;
-      padding: 10px;
-    }
-
-    .right_menu_img {
-      padding: 10px;
-    }
-
-    .last_menu_img {
-      position: initial;
-
-    }
-
-    .contact_form.contact_page .form-group span {
-      position: absolute;
-      top: 5px;
-      left: 6px;
-      border-right: 2px solid #6c757d;
-      width: 10% !important;
-    }
-
-  }
-
-  @media only screen and (min-width : 1024px) {
-    .testimonial_body {
-      top: 0px !important;
-    }
-
-    .swiper-button-prev,
-    .swiper-button-next {
-      margin-top: 0rem;
-    }
-
-    .logo img {
-      width: 12rem;
-    }
-
-  }
-
-  @media only screen and (max-width : 1024px) {
-    .gallery_banner .main_item .menu .carousel-caption {
-      bottom: 0px;
-      z-index: 10;
-      font-family: "Cormorant Garamond";
-      top: 9rem;
-    }
-
-    .menu .carousel-caption h1 {
-      font-size: 45px;
-      user-select: none;
-    }
-
-    .contact_form.contact_page .form-group span {
-      position: absolute;
-      top: 5px;
-      left: 6px;
-      border-right: 2px solid #6c757d;
-      width: 10% !important;
-    }
-
-    .main_full_map_frame {
-      height: 331px;
-    }
-
-    .logo img {
-      max-width: 12rem;
-    }
-
-    .header_contact img {
-      width: 34px;
-    }
-
-    .header_contact .contact p.number {
-      font-size: 22px;
-    }
-
-    .header_contact .contact p.call_us {
-      font-size: 17px;
-      line-height: 11px;
-    }
-
-    .social .social_icon {
-      padding: 0px;
-      width: 34px;
-    }
-
-    .card-content p {
-      font-size: 13px;
-      font-style: italic;
-    }
-
-    .testimonial_body {
-      padding-top: 20px;
-    }
-
-    .slide-container {
-      max-width: 1120px;
-      width: 56%;
-      padding: 26px 0;
-      overflow-y: hidden;
-      margin-top: 0px;
-    }
-
-  }
-
-
-
-
-  /* iPads (portrait and landscape) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    ul.navbar-nav.mr-auto {
-      height: auto !important;
-    }
-
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-
-
-
-    /* Styles */
-  }
-
-  /* iPads (landscape) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-
-    /* Styles */
-
-    .navbar {
-      background-color: #e9b61c !important;
-      height: 44px;
-
-    }
-
-    .menu_section .arrow {
-      margin-left: 14px;
-    }
-
-    .menu_section .first_menu,
-    .menu_section .second_menu {
-      margin-bottom: 20px;
-
-    }
-
-    .contact_form .form {
-
-      padding: 18px 74px 0px 45px;
-    }
-
-    .map_image {
-      width: 350px !important;
-      height: 330px !important;
-    }
-
-    .testimonial_body {
-
-      width: 80%;
-
-      top: 1%;
-    }
-
-    .swiper-button-next {
-      right: 1rem;
-      margin-top: 1rem;
-    }
-
-    .swiper-button-prev {
-      left: 1rem;
-      margin-top: 1rem;
-    }
-
-
-
-  }
-
-  /* iPads (portrait) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-
-
-
-    .top_header_section {
-      margin-bottom: 1rem;
-    }
-
-    /* Styles */
-    ul.navbar-nav.mr-auto {
-      height: auto !important;
-    }
-
-    .header_contact .contact {
-      padding: 0px;
-      margin: 0px;
-      line-height: 0;
-      position: relative;
-      top: 0;
-      left: 5px;
-      margin: -2px 0px;
-    }
-
-    .header_contact img {
-      width: 28px;
-    }
-
-    .header_contact .contact p.call_us {
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 22px;
-      margin-bottom: 0px;
-    }
-
-    .header_contact .contact p.number {
-      font-size: 17px;
-      font-weight: 800;
-      margin-bottom: 0px;
-    }
-
-    .social .social_icon {
-      width: 27px;
-    }
-
-    .logo img {
-      width: 7rem;
-    }
-
-    .map_image {
-      width: 350px !important;
-      height: 300px !important;
-    }
-
-    .separator .line {
-      height: 2px;
-      background-color: #a5252c;
-      width: 8rem;
-    }
-
-    .separator h3 {
-      padding: 0px 10px 0px 0px;
-      margin-bottom: 0px;
-    }
-
-    .about_section h3 {
-      font-size: 25px;
-      color: #a51d23;
-      font-weight: 600;
-    }
-
-    .about_section h2 {
-      font-size: 35px;
-      font-family: Cormorant Garamond;
-      font-weight: 700;
-    }
-
-    .about_section p {
-      font-size: 15px;
-      line-height: 22px;
-    }
-
-    .about_img img {
-      width: 100%;
-      flex-basis: fit-content;
-      background-size: cover;
-      height: 300px;
-    }
-
-    .menu_heading h1 {
-      text-align: center;
-      font-family: Cormorant Garamond;
-      font-weight: 600;
-      font-size: 45px;
-      padding: 17px 0 2px;
-    }
-
-    .menu_footer1 {
-      display: flex;
-      background-color: #fff;
-      font-size: 16px;
-      font-weight: 600;
-      padding: 2px 10px;
-      line-height: 36px;
-      height: 38px;
-    }
-
-    .menu_section .arrow {
-      margin-left: -10px;
-    }
-
-    .menu_footer {
-      display: flex;
-      background-color: #fff;
-      font-size: 16px;
-      font-weight: 600;
-      padding: 0px 10px;
-      line-height: 44px;
-
-    }
-
-    .menu_section .arrow,
-    .menu_section .arrow1 {
-      width: 22px;
-      height: 22px;
-    }
-
-    .menu_section .first_menu,
-    .menu_section .second_menu {
-      margin-bottom: 21px;
-      width: 90%;
-    }
-
-    .contact_form .contact_heading {
-      text-align: center;
-      font-family: Cormorant Garamond;
-      font-weight: 600;
-      font-size: 45px;
-      padding: 0px 0 10px;
-    }
-
-    .contact_form .form-control {
-      padding: 0px 33px;
-    }
-
-    .contact_form .contact_img {
-      width: 100%;
-      height: 98%;
-    }
-
-    .contact_form img {
-      width: 100%;
-      height: 100%;
-    }
-
-    .contact_form .form-group span {
-      position: absolute;
-      top: 7px;
-      left: 10px;
-      border-right: 1px solid #6c757d;
-      width: 6%;
-      opacity: 0.9;
-    }
-
-
-    .contact_form .form-group span i {
-      font-size: 12px;
-      color: #6c757d;
-    }
-
-  
-    .contact_form .form {
-      padding: 22px 74px 0px 45px;
-    }
-
-    .contact_form button {
-
-      font-size: 16px;
-
-    }
-
-    /* Testimonial */
-
-
-    .testimonials_section {
-      position: relative;
-      overflow-y: hidden;
-      padding: 25px 0px 10px;
-    }
-
-    .testimonials_section .testimonial_banner {
-      width: 100%;
-      height: 400px;
-    }
-
-    .testimonials_section .testimonials .testimonials_heading {
-      color: #fff;
-      font-family: Cormorant Garamond;
-      text-align: center;
-      margin: 15px 0 0px 0px;
-      font-size: 45px;
-    }
-
-
-    .gallery .gallery_heading h1 {
-      font-size: 45px;
-    }
-
-    .footer_section .footer_back_icon {
-      transform: rotate(180deg);
-      width: 20px;
-    }
-
-
-    .footer_section li span {
-      font-size: 10px;
-      margin-right: 0px !important;
-    }
-
-    .footer_section li a {
-      font-size: 10px;
-
-    }
-
-    .footer_section p.footer_heading {
-      font-size: 11px;
-      font-weight: 500;
-    }
-
-    .footer_section .vertical_line i {
-      margin-left: 0px !important;
-    }
-
-    .footer_section .vertical_line p.address_details,
-    p.number,
-    p.email,
-    p.opening_days,
-    p.opening_timing,
-    p.close_day {
-      font-size: 10px;
-      margin-top: 5px;
-    }
-
-    .footer_section .email_body,
-    .footer_section .number_body {
-      padding: 0px;
-    }
-
-
-
-  }
-
-
-
-  /* Desktops and laptops ----------- */
-  @media only screen and (min-width : 1224px) {
-
-    /* Styles */
-    ul.navbar-nav.mr-auto {
-      height: 27px !important;
-    }
-
-    .testimonial_body {
-      top: 12% !important;
-      width: 80%;
-    }
-
-    .swiper-button-prev {
-
-      left: 1rem;
-      margin-top: 0rem;
-
-    }
-
-    .swiper-button-next {
-      right: 1rem;
-      margin-top: 0rem;
-    }
-
-
-
-  }
-
-  @media screen and (max-width :1280px) {
-
-    .menu_line img {
-      display: none
-    }
-
-    /* MENU CSS END */
-    .about_section,
-    .our_menu,
-    .gallery {
-      padding-left: 10px;
-    }
-
-    .menu_price {
-      font-weight: 500;
-      color: #a61d24;
-    }
-
-    .responsive-map {
-      margin-top: 0px !important
-    }
-
-    .map_image {
-      margin-top: 0px !important;
-    }
-
-
-
-
-
-
-    .logo img {
-      width: 13rem;
-    }
-
-    .testimonials_section .testimonial_banner {
-      width: 100%;
-      height: 475px;
-    }
-
-    .testimonials_section .testimonials_heading {
-      color: #fff;
-      font-family: Cormorant Garamond;
-      text-align: center;
-      margin: 73px 0 0px 0px !important;
-      font-size: 50px !important;
-    }
-  }
-
-
-  @media only screen and (min-width :1280px) {
-    .logo img {
-      width: 13rem;
-    }
-
-
-    .header_contact img {
-      width: 33px;
-    }
-
-    .header_contact .contact p.number {
-      font-size: 20px;
-    }
-
-    .header_contact .contact p.call_us {
-      font-size: 17px;
-      line-height: 16px;
-    }
-
-    .social .social_icon {
-      padding: 0px;
-      width: 33px;
-    }
-
-    .testimonial_body {
-      top: 5% !important;
-      width: 80%;
-    }
-
-
-
-  }
-
-  @media only screen and (min-width : 1440px) {
-
-
-    .header_contact img {
-      width: 35px;
-    }
-
-    .header_contact .contact p.call_us {
-      font-size: 15px;
-      line-height: 12px;
-    }
-
-    .header_contact .contact p.number {
-      font-size: 23px;
-    }
-
-    .testimonials_section .testimonial_banner {
-      width: 100%;
-      height: 480px;
-    }
-
-    .logo img {
-      width: 15rem;
-    }
-
-
-
-    .testimonial_body {
-      top: 5% !important;
-      width: 80%;
-    }
-
-    .testimonials_section .testimonials_heading {
-      color: #fff;
-      font-family: Cormorant Garamond;
-      text-align: center;
-      /* margin: 40px 0 25px 0px !important; */
-      font-size: 56px !important;
-    }
-
-
-    .menu_section .arrow {
-      margin-left: 40px !important;
-    }
-
-    .contact_form .form {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      padding: 65px 77px 0px 40px;
-    }
-
-    .form-control {
-      display: block;
-      width: 100%;
-      padding: 5px;
-    }
-
-
-    .contact_form .form-group {
-      position: relative;
-      margin-bottom: 10px !important;
-    }
-
-    .responsive-map {
-      margin-top: -20px;
-    }
-
-    .swiper-button-next {
-      right: 5rem;
-      margin-top: 2rem;
-
-      width: 50px;
-      height: 50px;
-      border-radius: 100%;
-      opacity: 0.8;
-    }
-
-    .swiper-button-prev {
-      left: 5rem;
-      margin-top: 2rem;
-
-      width: 50px;
-      height: 50px;
-      border-radius: 100%;
-      opacity: 0.8;
-    }
-
-    .map_image {
-      width: 540px !important;
-    }
-  }
-
-  /* Large screens ----------- */
-  @media only screen and (min-width : 1824px) {
-
-    .logo img {
-      width: 10rem;
-    }
-
-    .header_contact img {
-      width: 30px;
-
-    }
-
-    .header_contact .contact p.call_us {
-      font-size: 15px;
-      line-height: 15px;
-    }
-
-    .header_contact .contact p.number {
-      font-size: 21px;
-    }
-
-    .social .social_icon {
-      /* padding: 0px; */
-      width: 33px;
-    }
-
-    /* Styles */
-    ul.navbar-nav.mr-auto {
-      height: 27px !important;
-    }
-
-
-    .testimonial_body {
-      /* top: 20% !important; */
-      width: 80%;
-    }
-
-    .swiper-button-prev {
-
-      left: 15rem;
-
-
-    }
-
-    .swiper-button-next {
-      right: 15rem;
-
-    }
-
-    .logo img {
-      width: 15rem;
-    }
-
-  }
-
-  @media screen and (min-width:2560px) {
-
-    .gallery_banner .main_item .menu .carousel-caption {
-      bottom: 0px;
-      z-index: 10;
-      font-family: "Cormorant Garamond";
-      top: 18rem;
-    }
-
-    .logo img {
-      width: 25rem;
-    }
-
-    .header_contact img {
-      width: 60px;
-    }
-
-    .header_contact .contact p.call_us {
-      font-size: 25px;
-      line-height: 30px;
-    }
-
-    .header_contact .contact p.number {
-      font-size: 35px;
-    }
-
-    .social .social_icon {
-
-      width: 61px;
-    }
-
-  }
-
- 
