@@ -223,7 +223,8 @@ a:hover {
 }
 
 .top_header_section {
-  padding: 10px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .top_header .logo {
@@ -814,6 +815,7 @@ a.banner_view_menu_btn {
 .menu_item1 p,
 .menu_item2 p {
   margin-bottom: 0px;
+  font-weight: 600;
 }
 
 .line1,
@@ -1373,7 +1375,7 @@ img.line1.m_line3,
 
 
 .menu_price {
-  font-weight: 400;
+  font-weight: 600;
   color: #a61d24;
 }
 
@@ -1556,6 +1558,8 @@ textarea.form-control {
 
 .full_map_frame {
   height: 350px;
+  position: relative;
+  top: 7px;
 }
 
 .main_full_map_frame {
